@@ -2,7 +2,7 @@
 
 Louis Fleury
 Melvyn Dadure
-Alexanne BRunold
+Alexanne Brunold
 Romain Danizel
 Pierre-Alexis Maerten
 
