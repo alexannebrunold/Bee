@@ -145,6 +145,12 @@ body {
     border-radius: 20.5px; }
   .choose .choose__blue {
     font-size: 18px; }
+  .choose .choose__dark {
+    font-size: 18px; }
+
+.fans {
+  background-color: #D9F7FA;
+  height: 97.44vh; }
 
 .footer {
   height: 9.95vh;
