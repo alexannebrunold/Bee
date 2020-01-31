@@ -1,6 +1,5 @@
 # Bee
 
-
 Louis Fleury
 Melvyn Dadure
 Alexanne Brunold
