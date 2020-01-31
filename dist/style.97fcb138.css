@@ -126,6 +126,26 @@ body {
   margin: 0;
   padding: 0; }
 
+.choose {
+  background-color: #F6D6FC;
+  color: #36BDCB;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: space-around;
+  height: 230vh;
+  font-size: 24px; }
+  .choose .button__choose {
+    background-color: #36BDCB;
+    border: none;
+    color: #FFFFFF;
+    height: 9.47vh;
+    width: 53.33vw;
+    font-size: 14px;
+    border-radius: 20.5px; }
+  .choose .choose__blue {
+    font-size: 18px; }
+
 .footer {
   height: 9.95vh;
   width: 100vw;
@@ -137,18 +157,22 @@ body {
     width: 24vw;
     display: flex;
     flex-direction: column;
-    justify-content: center; }
+    justify-content: center;
+    color: #FFFFFF; }
   .footer .icons__footer {
     justify-content: center;
     font-size: 10px;
     width: 52vw;
-    margin-top: 3vh; }
+    margin-top: 3vh;
+    color: #FFFFFF; }
   .footer .text__footer1 {
     width: 24vw;
     font-size: 10px;
+    text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center; }
+    justify-content: center;
+    color: #FFFFFF; }
 
 
 /*# sourceMappingURL=/style.97fcb138.css.map */
