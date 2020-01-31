@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "description": "",
+  "description": "Louis Fleury Melvyn Dadure Alexanne Brunold Romain Danizel Pierre-Alexis Maerten",
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html src/pages/*.html parcel src/style.scss src/sass/*"
@@ -14,5 +14,14 @@
   },
   "dependencies": {
     "parcel": "^1.12.4"
-  }
+  },
+  "name": "package.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexannebrunold/Bee.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexannebrunold/Bee/issues"
+  },
+  "homepage": "https://github.com/alexannebrunold/Bee#readme"
 }
