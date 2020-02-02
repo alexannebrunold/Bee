@@ -245,7 +245,11 @@ body {
   .eco .eco__sections {
     font-size: 14px;
     text-align: center;
-    margin-top: 16px; }
+    margin-top: 24px; }
+  .eco .eco__img {
+    height: 32vh;
+    width: auto;
+    margin-bottom: 16px; }
 
 
 /*# sourceMappingURL=/style.97fcb138.css.map */
