@@ -27,24 +27,24 @@
       width: 53.33vw;
       font-size: 14px;
       border-radius: 20.5px;
+      margin-top: 10px;
+      margin-bottom: 10px;
     }
-    .choose__blue{
+    .choose__blue, .choose__dark{
       font-size: 18px;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-    }
-    .choose__dark{
-      font-size: 18px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+      margin-top: 24px;
     }
     .blue__jacket, .dark__jacket{
       height: 46vh;
       width: auto;
+    }
+    .choose__price{
+      color: black;
+      font-size: 18px;
     }
 }
 
@@ -136,4 +136,25 @@
     justify-content: center;    
     color: #FFFFFF;
   }
+}
+
+// Eco
+
+.eco{
+  background-color: $fifthcolor;
+  height: auto;
+  width: 92vw;
+  margin: 0px 16px;
+  padding: 16px 0px;
+
+.eco__title{
+  color: $primarycolor;
+  text-align: center;
+  font-size: 24px;
+}
+.eco__sections{
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+}
 }

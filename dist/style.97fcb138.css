@@ -140,22 +140,22 @@ body {
     height: 9.47vh;
     width: 53.33vw;
     font-size: 14px;
-    border-radius: 20.5px; }
-  .choose .choose__blue {
+    border-radius: 20.5px;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .choose .choose__blue, .choose .choose__dark {
     font-size: 18px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; }
-  .choose .choose__dark {
-    font-size: 18px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
+    align-items: center;
+    margin-top: 24px; }
   .choose .blue__jacket, .choose .dark__jacket {
     height: 46vh;
     width: auto; }
+  .choose .choose__price {
+    color: black;
+    font-size: 18px; }
 
 .fans {
   background-color: #D9F7FA;
@@ -231,6 +231,21 @@ body {
     flex-direction: column;
     justify-content: center;
     color: #FFFFFF; }
+
+.eco {
+  background-color: #FFFFC4;
+  height: auto;
+  width: 92vw;
+  margin: 0px 16px;
+  padding: 16px 0px; }
+  .eco .eco__title {
+    color: #36BDCB;
+    text-align: center;
+    font-size: 24px; }
+  .eco .eco__sections {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 16px; }
 
 
 /*# sourceMappingURL=/style.97fcb138.css.map */
