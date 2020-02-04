@@ -150,13 +150,55 @@ nav.is-open {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width: 100vw; }
+    width: 100vw;
+    margin-bottom: 20%; }
     nav.is-open ul.lis .burger__li {
       opacity: 1;
       font-size: 40px;
       margin: -100px; }
     nav.is-open ul.lis .burger__li:not(:last-child) {
       margin-bottom: 0; }
+
+.banner {
+  background-color: #36BDCB;
+  width: 100vw;
+  height: 50vh;
+  position: absolute; }
+  .banner .slogan {
+    text-align: center;
+    top: 30vh; }
+
+.sentence {
+  text-align: center;
+  position: relative;
+  top: 36vh;
+  flex-flow: column wrap;
+  color: white; }
+  .sentence .jackets {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    overflow: hidden;
+    top: -4%;
+    right: -64vw;
+    width: auto;
+    height: 100vh; }
+    .sentence .jackets .left__jacket {
+      position: relative;
+      width: auto;
+      height: 43vh;
+      transform: rotate(-25.79deg);
+      top: -22px;
+      left: 0px; }
+    .sentence .jackets .right__jacket {
+      position: relative;
+      width: auto;
+      bottom: 55vh;
+      right: -2px;
+      height: 45vh;
+      transform: rotate(36deg); }
 
 .choose {
   color: #36BDCB;
@@ -359,26 +401,12 @@ nav.is-open {
   body {
     margin: 0;
     padding: 0; }
-  .header {
-    background-color: #36BDCB;
-    display: flex;
-    justify-content: space-around;
-    align-items: baseline; }
-  .banner {
-    background-color: #36BDCB;
-    width: 100vw;
-    height: 50vh;
-    position: absolute; }
-    .banner .slogan {
-      text-align: center;
-      top: 30vh; }
-    .banner .sentence {
-      text-align: center;
-      position: relative;
-      top: 36vh;
-      flex-flow: column wrap;
-      color: white; }
-    .banner .jackets {
+    body .header {
+      background-color: #36BDCB;
+      display: flex;
+      justify-content: space-around;
+      align-items: baseline; }
+    body .jackets {
       display: flex;
       flex-direction: row;
       justify-content: center;
@@ -389,14 +417,14 @@ nav.is-open {
       right: -64vw;
       width: auto;
       height: 100vh; }
-      .banner .jackets .left__jacket {
+      body .jackets .left__jacket {
         position: relative;
         bottom: 25vh;
         right: 13%;
         width: auto;
         height: 43vh;
         transform: rotate(-25.79deg); }
-      .banner .jackets .right__jacket {
+      body .jackets .right__jacket {
         position: relative;
         width: auto;
         bottom: 19vh;
@@ -404,19 +432,19 @@ nav.is-open {
         height: 45vh;
         transform: rotate(36deg); } }
   @media (min-width: 750px) and (min-width: 750px) {
-    .banner {
+    body {
       width: 100vw;
       margin: 0;
       padding: 0;
       padding-top: 24px; }
-      .banner .eco__title {
+      body .eco__title {
         font-size: 48px; }
-      .banner .yo {
+      body .yo {
         display: flex;
         flex-direction: column;
         justify-content: center; }
-      .banner .eco__plant {
+      body .eco__plant {
         flex-direction: column; } }
 
 
-/*# sourceMappingURL=/style.97fcb138.css.map */
+/*# sourceMappingURL=/style.css.map */
