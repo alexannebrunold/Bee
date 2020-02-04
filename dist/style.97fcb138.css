@@ -122,6 +122,31 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+@font-face {
+  font-family: "Baloo";
+  src: url("/baloo-v5-latin-regular.c585f5c1.woff") format("woff");
+  src: url("/baloo-v5-latin-regular.674b78d6.woff2") format("woff2"); }
+
+@font-face {
+  font-family: "Montserrat Light";
+  src: url("/Montserrat-Light.9fccc3f4.woff") format("woff");
+  src: url("/Montserrat-Light.289b041d.woff2") format("woff2"); }
+
+@font-face {
+  font-family: "Montserrat Medium";
+  src: url("/Montserrat-Medium.0effd27d.woff") format("woff");
+  src: url("/Montserrat-Medium.357bc1d6.woff2") format("woff2"); }
+
+@font-face {
+  font-family: "Montserrat Regular";
+  src: url("/Montserrat-Regular.c7ae4452.woff") format("woff");
+  src: url("/Montserrat-Regular.bbfce8f0.woff2") format("woff2"); }
+
+@font-face {
+  font-family: "Montserrat Semi-Bold";
+  src: url("/Montserrat-SemiBold.2c3100ec.woff") format("woff");
+  src: url("/Montserrat-SemiBold.2960d270.woff2") format("woff2"); }
+
 body {
   margin: 0;
   padding: 0; }
@@ -211,7 +236,7 @@ nav.is-open {
 .choose {
   color: #36BDCB;
   text-align: center;
-  margin-top: 60vh;
+  margin-top: 52vh;
   padding-top: 16px;
   padding-bottom: 15px;
   font-size: 24px; }
