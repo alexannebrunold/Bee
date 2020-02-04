@@ -140,29 +140,28 @@ nav {
         color: black;
         font-size: 18px;
       }
-      
+
+      //Desktop
       @media (min-width:750px) {
+        font-family: "Montserrat";
         .choose__title{
           font-size: 48px;
+          font-family: "Baloo";
         }
         .choose__sections{
           display: flex;
           flex-direction: row;
-          justify-content: center;
-          align-items: center;
-          justify-self: center;
+          justify-content: space-evenly;
         }
         .button__choose{
-          width: 18vw;
+          width: 36vw;
           height: 7.5vh;
           text-align: center;
-          // margin-left: 55px;
           font-size: 24px;
-          justify-self: center;
         }
-        .choose__blue{
-          padding-right: 160px;
-        }
+        // .choose__blue{
+        //   padding-right: 160px;
+        // }
         .choose__price{
           font-size: 18px;
         }
@@ -171,7 +170,7 @@ nav {
    
    // Fans 
    .fans{
-    background-color: $secondarycolor;
+    // background-color: $secondarycolor;
     height: 56vh;
     color: $primarycolor;
     text-align: center;
@@ -203,8 +202,10 @@ nav {
     }
     
     @media (min-width:750px) {
+      background-color: white;
       font-size: 48px;
       padding-top: 24px;
+      height: 72vh;
       .button__fans{
         height: 8.38vh;
         width: 32vw;
@@ -319,4 +320,38 @@ nav {
       color: #FFFFFF;
       margin-right: 16px;
     }
-   }
+    //Desktop
+@media (min-width:750px) {
+  width: 100vw;
+
+  padding-top: 24px;
+  .eco__title{
+    font-size: 48px;
+  }
+  .yo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .eco__plant{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 70%;
+    }
+    .eco__shop{
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 70%;
+    }
+    .eco__earth{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 70%;
+    }
+ }
+ }

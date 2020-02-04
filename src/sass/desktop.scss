@@ -91,4 +91,29 @@
    }
    }
 
+   // Choisir le modèle
+   @media (min-width:750px) {
+      .choose__title{
+        font-size: 48px;
+      }
+      .choose__sections{
+        display: flex;
+        flex-direction: column-reverse;
+      }
+      .button__choose{
+        width: 18vw;
+        height: 7.5vh;
+        text-align: center;
+        // margin-left: 55px;
+        font-size: 24px;
+        justify-self: center;
+      }
+      // .choose__blue{
+      //   padding-right: 160px;
+      // }
+      .choose__price{
+        font-size: 18px;
+      }
+    }
+
 

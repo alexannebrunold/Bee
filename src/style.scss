@@ -147,76 +147,50 @@ nav.is-open {
 }
 
 //  Choisir le modèle
-//Mobile
-.choose{
- // background-color: $thirdcolor;
- color: $primarycolor;
- text-align: center;
- margin-top: 52vh;
- padding-top:16px;
- padding-bottom: 15px;
-   font-size: 24px;
-   .button__choose{
-     background-color: $primarycolor;
-     border: none;
-     color: #FFFFFF;
-     height: 6vh;
-     width: 48vw;
-     font-size: 14px;
-     border-radius: 20.5px;
-     margin-top: 10px;
-     margin-bottom: 10px;
-     display: block;
-     margin: auto;
-     text-align: center;
-     margin-bottom: 16px;
-     box-shadow: 4px 4px 0px $thirdcolor;
-   }
-   .choose__sections{
-     font-size: 18px;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     margin-top: 24px;
-   }
-   .blue__jacket, .dark__jacket{
-     height: 46vh;
-     width: auto;
-     padding-top: 16px;
-   }
-   .choose__price{
-     color: black;
-     font-size: 18px;
-   }
-   //Dektop
-   @media (min-width:750px) {
-     .choose__title{
-       font-size: 48px;
-     }
-     .choose__sections{
-       display: flex;
-       flex-direction: row;
-       justify-content: center;
-       align-items: center;
-       justify-self: center;
-     }
-     .button__choose{
-       width: 18vw;
-       height: 7.5vh;
-       text-align: center;
-       // margin-left: 55px;
-       font-size: 24px;
-       justify-self: center;
-     }
-     .choose__blue{
-       padding-right: 160px;
-     }
-     .choose__price{
-       font-size: 18px;
-     }
-   }
-}
+// Mobile
+// .choose{
+//  // background-color: $thirdcolor;
+//  color: $primarycolor;
+//  text-align: center;
+//  margin-top: 52vh;
+//  padding-top:16px;
+//  padding-bottom: 15px;
+//    font-size: 24px;
+//    .button__choose{
+//      background-color: $primarycolor;
+//      border: none;
+//      color: #FFFFFF;
+//      height: 6vh;
+//      width: 48vw;
+//      font-size: 14px;
+//      border-radius: 20.5px;
+//      margin-top: 10px;
+//      margin-bottom: 10px;
+//      display: block;
+//      margin: auto;
+//      text-align: center;
+//      margin-bottom: 16px;
+//      box-shadow: 4px 4px 0px $thirdcolor;
+//    }
+//    .choose__sections{
+//      font-size: 18px;
+//      display: flex;
+//      flex-direction: column;
+//      justify-content: center;
+//      align-items: center;
+//      margin-top: 24px;
+//    }
+//    .blue__jacket, .dark__jacket{
+//      height: 46vh;
+//      width: auto;
+//      padding-top: 16px;
+//    }
+//    .choose__price{
+//      color: black;
+//      font-size: 18px;
+//    }
+//   // 
+// }
 
 // Fans 
 //Mobile
@@ -249,26 +223,26 @@ nav.is-open {
      box-shadow: 4px 4px 0px $thirdcolor;
  }
  //Desktop
- @media (min-width:750px) {
-   font-size: 48px;
-   padding-top: 24px;
-   .button__fans{
-     height: 8.38vh;
-     width: 32vw;
-     font-size: 24px;
-     border-radius: 20.5px;
-     margin-top: 24px;
-     margin-bottom: 24px;
-   }
-   .fans__img{
-     display: grid;
-     grid-template-columns: 1fr 1fr;
-     grid-gap: 15px;
-     grid-template-rows: 1fr 1fr;
-   }
-   }   
+//  @media (min-width:750px) {
+//    font-size: 48px;
+//    padding-top: 24px;
+//    .button__fans{
+//      height: 8.38vh;
+//      width: 32vw;
+//      font-size: 24px;
+//      border-radius: 20.5px;
+//      margin-top: 24px;
+//      margin-bottom: 24px;
+//    }
+//    .fans__img{
+//      display: grid;
+//      grid-template-columns: 1fr 1fr;
+//      grid-gap: 15px;
+//      grid-template-rows: 1fr 1fr;
+//    }
+//    }   
  
-}
+// }
 
 .star1{
  height: 17.85vh;
@@ -327,25 +301,7 @@ nav.is-open {
  margin-top: 24px;
 
 }
-//Desktop
-@media (min-width:750px) {
- width: 100vw;
- margin: 0;
- padding: 0;
- padding-top: 24px;
- .eco__title{
-   font-size: 48px;
- }
- .yo{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   }
-   .eco__plant{
-     flex-direction: column;
-   }
-}
-}
+
 // .test{
 //   // background-image: url("/Users/alexannebrunold/Documents/Cours/Semaine-Projets/1er-Semestre-Bee/Bee/src/Vector.png");
 //   // height: 15px;
@@ -388,18 +344,11 @@ nav.is-open {
    justify-content: center;    
    color: #FFFFFF;
    margin-right: 16px;
- }
+ }}}
 }
-
-$primarycolor: #36BDCB;
-  $secondarycolor: #D9F7FA;
-  $thirdcolor:  #F6D6FC;
-  $fourthcolor: #FFD9C9;
-  $fifthcolor: #FFFFC4;
-  $footercolor: #677577;
 @import 'sass/reset.scss';
 @import 'sass/mobile.scss';
 @media (min-width: 750px){ 
-  @import 'sass/desktop.scss';
+  @import url("sass/desktop.scss");
 }
 

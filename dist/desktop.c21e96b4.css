@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "Baloo";
+  src: url("/3669a8c7bb62169978e232a954891e44.woff") format("woff");
+  src: url("/87c8b79c6a539fc385c935cf79e39db7.woff2") format("woff2"); }
+
+@font-face {
+  font-family: "Montserrat Light";
+  src: url("/eaaaa927b059d7cf440fed3e56e2b3ee.woff") format("woff");
+  src: url("/543a4f2149facb6a8fbab903ffe1b376.woff2") format("woff2"); }
+
+@font-face {
+  font-family: "Montserrat Medium";
+  src: url("/c08b05cc45a310be2af70f30f5ed45c3.woff") format("woff");
+  src: url("/19d821e442dacf81b09b59f9a77d1af5.woff2") format("woff2"); }
+
+@font-face {
+  font-family: "Montserrat Regular";
+  src: url("/595eae4ae92b5e5dd54869ce5107388a.woff") format("woff");
+  src: url("/584ab1a7c18022d74eb9957dfaf66d49.woff2") format("woff2"); }
+
+@font-face {
+  font-family: "Montserrat Semi-Bold";
+  src: url("/82257429c9b8cebeb855688753225dd8.woff") format("woff");
+  src: url("/c76c50ff5d18da18c7a80872487d56c3.woff2") format("woff2"); }
+
+body {
+  margin: 0;
+  padding: 0; }
+  body .header {
+    background-color: #36BDCB;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline; }
+  body .jackets {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    overflow: hidden;
+    top: -4%;
+    right: -64vw;
+    width: auto;
+    height: 100vh; }
+    body .jackets .left__jacket {
+      position: relative;
+      bottom: 25vh;
+      right: 13%;
+      width: auto;
+      height: 43vh;
+      transform: rotate(-25.79deg); }
+    body .jackets .right__jacket {
+      position: relative;
+      width: auto;
+      bottom: 19vh;
+      right: 24%;
+      height: 45vh;
+      transform: rotate(36deg); }
+  @media (min-width: 750px) {
+    body {
+      width: 100vw;
+      margin: 0;
+      padding: 0;
+      padding-top: 24px; }
+      body .eco__title {
+        font-size: 48px; }
+      body .yo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+      body .eco__plant {
+        flex-direction: column; } }
+
+@media (min-width: 750px) {
+  .choose__title {
+    font-size: 48px; }
+  .choose__sections {
+    display: flex;
+    flex-direction: row; }
+  .button__choose {
+    width: 18vw;
+    height: 7.5vh;
+    text-align: center;
+    font-size: 24px;
+    justify-self: center; }
+  .choose__price {
+    font-size: 18px; } }
+
+
+/*# sourceMappingURL=/desktop.c21e96b4.css.map */
