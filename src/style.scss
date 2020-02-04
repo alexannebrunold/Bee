@@ -1,4 +1,29 @@
 @import 'reset/reset.scss';
+@font-face{
+  font-family: "Baloo";
+  src: url("../src/assets/fonts/baloo/baloo-v5-latin-regular.woff") format("woff");
+  src: url("../src/assets/fonts/baloo/baloo-v5-latin-regular.woff2") format("woff2");
+}
+@font-face{
+  font-family: "Montserrat Light";
+  src: url("../src/assets/fonts/montserrat/Montserrat-Light.woff") format("woff");
+  src: url("../src/assets/fonts/montserrat/Montserrat-Light.woff2") format("woff2");
+}
+@font-face{
+  font-family: "Montserrat Medium";
+  src: url("../src/assets/fonts/montserrat/Montserrat-Medium.woff") format("woff");
+  src: url("../src/assets/fonts/montserrat/Montserrat-Medium.woff2") format("woff2");
+}
+@font-face{
+  font-family: "Montserrat Regular";
+  src: url("../src/assets/fonts/montserrat/Montserrat-Regular.woff") format("woff");
+  src: url("../src/assets/fonts/montserrat/Montserrat-Regular.woff2") format("woff2");
+}
+@font-face{
+  font-family: "Montserrat Semi-Bold";
+  src: url("../src/assets/fonts/montserrat/Montserrat-SemiBold.woff") format("woff");
+  src: url("../src/assets/fonts/montserrat/Montserrat-SemiBold.woff2") format("woff2");
+}
  
 body{
  margin: 0;
@@ -128,7 +153,7 @@ nav.is-open {
  // background-color: $thirdcolor;
  color: $primarycolor;
  text-align: center;
- margin-top: 60vh;
+ margin-top: 52vh;
  padding-top:16px;
  padding-bottom: 15px;
    font-size: 24px;
