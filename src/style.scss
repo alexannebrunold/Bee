@@ -1,4 +1,5 @@
 @import 'reset/reset.scss';
+<<<<<<< HEAD
 @font-face{
   font-family: "Baloo";
   src: url("../src/assets/fonts/baloo/baloo-v5-latin-regular.woff") format("woff");
@@ -24,6 +25,8 @@
   src: url("../src/assets/fonts/montserrat/Montserrat-SemiBold.woff") format("woff");
   src: url("../src/assets/fonts/montserrat/Montserrat-SemiBold.woff2") format("woff2");
 }
+=======
+>>>>>>> fafeea7920c9d2dd5103dc471666bfddf02edec5
  
 body{
  margin: 0;
@@ -153,7 +156,11 @@ nav.is-open {
  // background-color: $thirdcolor;
  color: $primarycolor;
  text-align: center;
+<<<<<<< HEAD
  margin-top: 52vh;
+=======
+ margin-top: 60vh;
+>>>>>>> fafeea7920c9d2dd5103dc471666bfddf02edec5
  padding-top:16px;
  padding-bottom: 15px;
    font-size: 24px;
