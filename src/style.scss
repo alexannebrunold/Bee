@@ -1,4 +1,3 @@
-@import 'reset/reset.scss';
 @font-face{
   font-family: "Baloo";
   src: url("../src/assets/fonts/baloo/baloo-v5-latin-regular.woff") format("woff");
@@ -135,15 +134,15 @@ nav.is-open {
         height: 43vh;
         transform: rotate(-25.79deg);
     }
-    .right__jacket {
-        position: relative;
-        width: auto;
-        bottom: 19vh;
-        right: 24%;
-        height: 45vh;
-        transform: rotate(36deg);
+  //   .right__jacket {
+  //       position: relative;
+  //       width: auto;
+  //       bottom: 19vh;
+  //       right: 24%;
+  //       height: 45vh;
+  //       transform: rotate(36deg);
 
-  }
+  // }
 }
 }
 
@@ -223,7 +222,7 @@ nav.is-open {
 //Mobile
 .fans{
  background-color: $secondarycolor;
- height: 72vh;
+ height: 40vh;
  color: $primarycolor;
  text-align: center;
  padding-top: 16px;
@@ -314,19 +313,19 @@ nav.is-open {
  height: auto;
  width: 100vw;
  padding: 16px 0px;
- border: 2px solid red;
+ 
 
 .eco__title{
  color: $primarycolor;
  text-align: center;
  font-size: 24px;
- border: 2px solid blue;
+ 
 }
 .eco__sections{
  font-size: 14px;
  text-align: center;
  margin-top: 24px;
- border: 2px solid pink;
+
 }
 //Desktop
 @media (min-width:750px) {

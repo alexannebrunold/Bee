@@ -106,6 +106,7 @@ nav {
     padding-top:16px;
     padding-bottom: 15px;
       font-size: 24px;
+      font-family: "Baloo";
       .button__choose{
         background-color: $primarycolor;
         border: none;
@@ -171,12 +172,15 @@ nav {
    // Fans 
    .fans{
     background-color: $secondarycolor;
-    height: 72vh;
+    height: 56vh;
     color: $primarycolor;
     text-align: center;
     padding-top: 16px;
     font-size: 24px;
     // margin-bottom: 16px;
+    .fans__title{
+      font-family: "Baloo";
+    }
     .fans__img{
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -254,26 +258,35 @@ nav {
     align-self: center;
     justify-self: center;
    }
+
+   // Eco
    .eco{
     background-color: $fifthcolor;
     height: auto;
     width: 100vw;
-    padding: 16px 0px;
-    border: 2px solid red;
    
    .eco__title{
     color: $primarycolor;
     text-align: center;
     font-size: 24px;
-    border: 2px solid blue;
+    font-family: "Baloo";
    }
    .eco__sections{
     font-size: 14px;
     text-align: center;
     margin-top: 24px;
-    border: 2px solid pink;
+
    }
+  .eco__text{
+    width: 80vw;
+    margin: 16px 16px 0px 16px;
+    padding: 0px 16px 0px 16px;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Montserrat Mixed";
+  }
    }
+
    .footer{
     height: 9.95vh;
     width: 100vw;
