@@ -122,6 +122,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+@font-face {
+  font-family: "Ballo";
+  src: url("/baloo-v5-latin-regular.c585f5c1.woff"); }
+
 body {
   margin: 0;
   padding: 0; }
@@ -211,7 +215,7 @@ nav.is-open {
 .choose {
   color: #36BDCB;
   text-align: center;
-  margin-top: 60vh;
+  margin-top: 52vh;
   padding-top: 16px;
   padding-bottom: 15px;
   font-size: 24px; }
