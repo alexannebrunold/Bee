@@ -1,12 +1,18 @@
+@import 'reset/reset.scss';
+ 
+body{
+ margin: 0;
+ padding:0;
+}
 
+$primarycolor: #36BDCB;
+$secondarycolor: #D9F7FA;
+$thirdcolor:  #F6D6FC;
+$fourthcolor: #FFD9C9;
+$fifthcolor: #FFFFC4;
+$footercolor: #677577;
 
- @import 'sass/reset/reset.scss';
- $primarycolor: #36BDCB;
- $secondarycolor: #D9F7FA;
- $thirdcolor:  #F6D6FC;
- $fourthcolor: #FFD9C9;
- $fifthcolor: #FFFFC4;
- // keyframes 
+// keyframes 
 nav {
    background-color: greenyellow;
    position:fixed;
@@ -49,7 +55,7 @@ nav.is-open {
         margin: -100px;
         
       }
-      .burger__li:not(:last-child) {
+      .burger__li:not(:last-child) {
         margin-bottom:0;
 }
     }
@@ -71,8 +77,8 @@ nav.is-open {
     height: 50vh;
     position:absolute;
   .slogan {
-    text-align:center
-    top 30vh;
+    text-align:center;
+    top: 30vh;
     
   }
   .sentence {
@@ -115,27 +121,14 @@ nav.is-open {
   }
 }
 }
-=======
- @import 'reset/reset.sass';
- 
- body{
-  margin: 0;
-  padding:0;
-}
-
-$primarycolor: #36BDCB;
-$secondarycolor: #D9F7FA;
-$thirdcolor:  #F6D6FC;
-$fourthcolor: #FFD9C9;
-$fifthcolor: #FFFFC4;
-$footercolor: #677577;
 
 //  Choisir le modèle
-
+//Mobile
 .choose{
  // background-color: $thirdcolor;
  color: $primarycolor;
  text-align: center;
+ margin-top: 60vh;
  padding-top:16px;
  padding-bottom: 15px;
    font-size: 24px;
@@ -172,6 +165,7 @@ $footercolor: #677577;
      color: black;
      font-size: 18px;
    }
+   //Dektop
    @media (min-width:750px) {
      .choose__title{
        font-size: 48px;
@@ -201,7 +195,7 @@ $footercolor: #677577;
 }
 
 // Fans 
-
+//Mobile
 .fans{
  background-color: $secondarycolor;
  height: 72vh;
@@ -230,6 +224,7 @@ $footercolor: #677577;
      margin: auto;
      box-shadow: 4px 4px 0px $thirdcolor;
  }
+ //Desktop
  @media (min-width:750px) {
    font-size: 48px;
    padding-top: 24px;
@@ -288,7 +283,7 @@ $footercolor: #677577;
 }
 
 // Eco
-
+//Mobile
 .eco{
  background-color: $fifthcolor;
  height: auto;
@@ -308,6 +303,7 @@ $footercolor: #677577;
  margin-top: 24px;
  border: 2px solid pink;
 }
+//Desktop
 @media (min-width:750px) {
  width: 100vw;
  margin: 0;
@@ -336,7 +332,7 @@ $footercolor: #677577;
 // }
 
 //  Footer
-
+//Mobile
 .footer{
  height: 9.95vh;
  width: 100vw;
