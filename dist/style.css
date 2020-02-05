@@ -1,3 +1,32 @@
+@font-face {
+  font-family: "Baloo";
+  src: url("/baloo-v5-latin-regular.c585f5c1.woff") format("woff");
+  src: url("/baloo-v5-latin-regular.674b78d6.woff2") format("woff2"); }
+
+@font-face {
+  font-family: "Montserrat Light";
+  src: url("/Montserrat-Light.56e2b3ee.woff") format("woff");
+  src: url("/Montserrat-Light.289b041d.woff2") format("woff2"); }
+
+@font-face {
+  font-family: "Montserrat Medium";
+  src: url("/Montserrat-Medium.0effd27d.woff") format("woff");
+  src: url("/Montserrat-Medium.357bc1d6.woff2") format("woff2"); }
+
+@font-face {
+  font-family: "Montserrat Regular";
+  src: url("/Montserrat-Regular.c7ae4452.woff") format("woff");
+  src: url("/Montserrat-Regular.bbfce8f0.woff2") format("woff2"); }
+
+@font-face {
+  font-family: "Montserrat Semi-Bold";
+  src: url("/Montserrat-SemiBold.2c3100ec.woff") format("woff");
+  src: url("/Montserrat-SemiBold.2960d270.woff2") format("woff2"); }
+
+body {
+  margin: 0;
+  padding: 0; }
+
 html,
 body,
 div,
@@ -206,7 +235,8 @@ nav.is-open {
   margin-top: 52vh;
   padding-top: 16px;
   padding-bottom: 15px;
-  font-size: 24px; }
+  font-size: 24px;
+  font-family: "Baloo"; }
   .choose .button__choose {
     background-color: #36BDCB;
     border: none;
@@ -236,33 +266,36 @@ nav.is-open {
   .choose .choose__price {
     color: black;
     font-size: 18px; }
-  @media (min-width: 750px) {
-    .choose .choose__title {
-      font-size: 48px; }
-    .choose .choose__sections {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      justify-self: center; }
-    .choose .button__choose {
-      width: 18vw;
-      height: 7.5vh;
-      text-align: center;
-      font-size: 24px;
-      justify-self: center; }
-    .choose .choose__blue {
-      padding-right: 160px; }
-    .choose .choose__price {
-      font-size: 18px; } }
+  @media (min-width: 750px) {72vh;
+
+    .choose {
+      font-family: "Montserrat"; }
+      .choose .choose__title {
+        font-size: 48px;
+        font-family: "Baloo"; }
+      .choose .choose__sections {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly; }
+      .choose .button__choose {
+        width: 36vw;
+        height: 7.5vh;
+        text-align: center;
+        font-size: 24px; }
+      .choose .choose__price {
+        font-size: 18px;
+        font-family: "Montserrat Light"; } }
 
 .fans {
-  background-color: #D9F7FA;
-  height: 72vh;
+  height: 56vh;
   color: #36BDCB;
   text-align: center;
   padding-top: 16px;
   font-size: 24px; }
+
+  .fans .fans__title {
+    font-family: "Baloo"; }
+
   .fans .fans__img {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -283,8 +316,12 @@ nav.is-open {
     box-shadow: 4px 4px 0px #F6D6FC; }
   @media (min-width: 750px) {
     .fans {
+
+      background-color: white;
       font-size: 48px;
-      padding-top: 24px; }
+      padding-top: 24px;
+      height: 72vh; }
+
       .fans .button__fans {
         height: 8.38vh;
         width: 32vw;
@@ -331,28 +368,44 @@ nav.is-open {
   justify-self: center; }
 
 .eco {
+
   background-color: #FFFFC4;
   height: auto;
   width: 100vw;
-  padding: 16px 0px;
-  border: 2px solid red; }
+  padding: 16px 0px; }
+
   .eco .eco__title {
     color: #36BDCB;
     text-align: center;
     font-size: 24px;
-    border: 2px solid blue; }
-  .eco .eco__sections {
-    font-size: 14px;
+
+    font-family: "Baloo";
+    margin-top: 8px;
+    margin-bottom: 16px; }
+  .eco .yo {
+    margin-left: 16px;
+    margin-right: 16px; }
+  .eco .eco__plant, .eco .eco__shop, .eco .eco__earth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
     text-align: center;
-    margin-top: 24px;
-    border: 2px solid pink; }
+    margin-bottom: 32px;
+    font-size: 14px;
+    font-family: "Monsterrat Regular"; }
+  .eco .eco__plant img, .eco .eco__shop img, .eco .eco__earth img {
+    margin-bottom: 24px; }
 
 .footer {
-  height: 9.95vh;
+  height: 8vh;
   width: 100vw;
   background-color: #677577;
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  font-family: "Monsterrat Regular";
+  font-size: 8px; }
+
   .footer .text__footer {
     font-size: 10px;
     width: 24vw;
@@ -362,10 +415,13 @@ nav.is-open {
     color: #FFFFFF;
     margin-left: 16px; }
   .footer .icons__footer {
-    justify-content: center;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     font-size: 10px;
     width: 52vw;
-    margin-top: 3vh;
+
     color: #FFFFFF; }
   .footer .text__footer1 {
     width: 24vw;
@@ -377,84 +433,56 @@ nav.is-open {
     color: #FFFFFF;
     margin-right: 16px; }
 
-.header__bee {
-  display: flex;
-  background-color: #36BDCB;
-  width: 100vw;
-  height: 65px; }
-  .header__bee.logoBee {
-    object-fit: scale-down;
+
+@media (min-width: 750px) {
+  .jackets {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    overflow: hidden;
+    top: -4%;
+    right: -64vw;
+    width: auto;
+    height: 100vh; }
+    .jackets .left__jacket {
+      position: relative;
+      bottom: 25vh;
+      right: 13%;
+      width: auto;
+      height: 43vh;
+      transform: rotate(-25.79deg); }
+    .jackets .right__jacket {
+      position: relative;
+      width: auto;
+      bottom: 19vh;
+      right: 24%;
+      height: 45vh;
+      transform: rotate(36deg); }
+  .eco__title {
+    font-size: 48px; }
+  .yo {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center; }
+  .eco__plant {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; }
+  .eco__shop {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center; }
+  .eco__earth {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; } }
 
-@media (min-width: 750px) and (min-width: 750px) {
-  @font-face {
-    font-family: "Baloo";
-    src: url("/baloo-v5-latin-regular.c585f5c1.woff") format("woff");
-    src: url("/baloo-v5-latin-regular.674b78d6.woff2") format("woff2"); }
-  @font-face {
-    font-family: "Montserrat Light";
-    src: url("/Montserrat-Light.9fccc3f4.woff") format("woff");
-    src: url("/Montserrat-Light.289b041d.woff2") format("woff2"); }
-  @font-face {
-    font-family: "Montserrat Medium";
-    src: url("/Montserrat-Medium.0effd27d.woff") format("woff");
-    src: url("/Montserrat-Medium.357bc1d6.woff2") format("woff2"); }
-  @font-face {
-    font-family: "Montserrat Regular";
-    src: url("/Montserrat-Regular.c7ae4452.woff") format("woff");
-    src: url("/Montserrat-Regular.bbfce8f0.woff2") format("woff2"); }
-  @font-face {
-    font-family: "Montserrat Semi-Bold";
-    src: url("/Montserrat-SemiBold.2c3100ec.woff") format("woff");
-    src: url("/Montserrat-SemiBold.2960d270.woff2") format("woff2"); }
-  body {
-    margin: 0;
-    padding: 0; }
-    body .header {
-      background-color: #36bdcb;
-      display: flex;
-      justify-content: space-around;
-      align-items: baseline; }
-    body .jackets {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      position: absolute;
-      overflow: hidden;
-      top: -4%;
-      right: -64vw;
-      width: auto;
-      height: 100vh; }
-      body .jackets .left__jacket {
-        position: relative;
-        bottom: 25vh;
-        right: 13%;
-        width: auto;
-        height: 43vh;
-        transform: rotate(-25.79deg); }
-      body .jackets .right__jacket {
-        position: relative;
-        width: auto;
-        bottom: 19vh;
-        right: 24%;
-        height: 45vh;
-        transform: rotate(36deg); } }
-  @media (min-width: 750px) and (min-width: 750px) and (min-width: 750px) {
-    body {
-      width: 100vw;
-      margin: 0;
-      padding: 0;
-      padding-top: 24px; }
-      body .eco__title {
-        font-size: 48px; }
-      body .yo {
-        display: flex;
-        flex-direction: column;
-        justify-content: center; }
-      body .eco__plant {
-        flex-direction: column; } }
 
 
 /*# sourceMappingURL=/style.css.map */
