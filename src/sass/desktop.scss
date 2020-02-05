@@ -1,5 +1,7 @@
+
 @media (min-width: 750px) {
   @font-face {
+
     font-family: "Baloo";
     src: url("../src/assets/fonts/baloo/baloo-v5-latin-regular.woff")
       format("woff");
@@ -99,4 +101,12 @@
       }
     }
   }
-}
+
+   //Right Custom Page
+
+   .personalisation__title{
+    font-size: 54px;
+    
+   }
+  }
+
