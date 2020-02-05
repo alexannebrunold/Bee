@@ -6,6 +6,7 @@ $primarycolor: #36BDCB;
   $footercolor: #677577;
 @import 'sass/reset.scss';
 @import 'sass/mobile.scss';
+@import 'sass/custom.scss';
 @media (min-width: 750px){ 
-  @import 'sass/desktop.scss';
+@import 'sass/desktop.scss';
 }
