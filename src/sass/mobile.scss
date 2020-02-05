@@ -159,24 +159,20 @@ nav {
           text-align: center;
           font-size: 24px;
         }
-        // .choose__blue{
-        //   padding-right: 160px;
-        // }
         .choose__price{
           font-size: 18px;
+          font-family: "Montserrat Light";
         }
       }
    }
    
    // Fans 
    .fans{
-    // background-color: $secondarycolor;
     height: 56vh;
     color: $primarycolor;
     text-align: center;
     padding-top: 16px;
     font-size: 24px;
-    // margin-bottom: 16px;
     .fans__title{
       font-family: "Baloo";
     }
@@ -260,14 +256,48 @@ nav {
     justify-self: center;
    }
 
-   
+   //Eco
+   .eco{
+    height: auto;
+    width: 100vw;
+    padding: 16px 0px;
+   .eco__title{
+    color: $primarycolor;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Baloo";
+    margin-top: 8px;
+    margin-bottom: 16px;
+   }
+   .yo{
+     margin-left: 16px;
+     margin-right: 16px;
+   }
+   .eco__plant, .eco__shop, .eco__earth{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-content: center;
+     text-align: center;
+     margin-bottom: 32px;
+     font-size: 14px;
+     font-family: "Monsterrat Regular";
+   }
+   .eco__plant img, .eco__shop img, .eco__earth img{
+     margin-bottom: 24px;
+   }
+  }
 
+
+   // Footer
    .footer{
-    height: 9.95vh;
+    height: 8vh;
     width: 100vw;
     background-color: $footercolor;
     display: flex;
     flex-direction: row;
+    font-family: "Monsterrat Regular";
+    font-size: 8px;
     .text__footer{
       font-size: 10px;
       width:24vw;
@@ -278,10 +308,11 @@ nav {
       margin-left: 16px;
     }
     .icons__footer{
-      justify-content: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
       font-size: 10px;
       width:52vw;
-      margin-top: 3vh;
       color: #FFFFFF;
     }
     .text__footer1{
@@ -295,35 +326,3 @@ nav {
       margin-right: 16px;
     }
    }
-   .footer{
-    height: 9.95vh;
-    width: 100vw;
-    background-color: $footercolor;
-    display: flex;
-    flex-direction: row;
-    .text__footer{
-      font-size: 10px;
-      width:24vw;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      color: #FFFFFF;
-      margin-left: 16px;
-    }
-    .icons__footer{
-      justify-content: center;
-      font-size: 10px;
-      width:52vw;
-      margin-top: 3vh;
-      color: #FFFFFF;
-    }
-    .text__footer1{
-      width: 24vw;
-      font-size: 10px;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;    
-      color: #FFFFFF;
-      margin-right: 16px;
-    }}
