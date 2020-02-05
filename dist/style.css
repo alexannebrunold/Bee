@@ -369,153 +369,146 @@ li:not(:last-child) {
         font-size: 24px; }
       .choose .choose__price {
         font-size: 18px;
-        font-family: "Montserrat Light"; } }
-
-.fans {
-  height: 56vh;
-  color: #36BDCB;
-  text-align: center;
-  padding-top: 16px;
-  font-size: 24px; }
-  .fans .fans__title {
-    font-family: "Baloo"; }
-  .fans .fans__img {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 15px;
-    grid-template-rows: 1fr 1fr;
-    padding-top: 32px; }
-  .fans .button__fans {
-    background-color: #36BDCB;
-    border: none;
-    color: #FFFFFF;
-    height: 5vh;
-    width: 48vw;
-    font-size: 10px;
-    border-radius: 20.5px;
-    margin-top: 50px;
-    display: block;
-    margin: auto;
-    box-shadow: 4px 4px 0px #F6D6FC; }
+        font-family: "Montserrat Light"; }
+      .choose .fans {
+        height: 56vh;
+        color: #36BDCB;
+        text-align: center;
+        padding-top: 16px;
+        font-size: 24px; }
+        .choose .fans .fans__title {
+          font-family: "Baloo"; }
+        .choose .fans .fans__img {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 15px;
+          grid-template-rows: 1fr 1fr;
+          padding-top: 32px; }
+        .choose .fans .button__fans {
+          background-color: #36BDCB;
+          border: none;
+          color: #FFFFFF;
+          height: 5vh;
+          width: 48vw;
+          font-size: 10px;
+          border-radius: 20.5px;
+          margin-top: 50px;
+          display: block;
+          margin: auto;
+          box-shadow: 4px 4px 0px #F6D6FC; } }
+    @media (min-width: 750px) and (min-width: 750px) {
+      .choose .fans {
+        background-color: white;
+        font-size: 48px;
+        padding-top: 24px;
+        height: 72vh; }
+        .choose .fans .button__fans {
+          height: 8.38vh;
+          width: 32vw;
+          font-size: 24px;
+          border-radius: 20.5px;
+          margin-top: 24px;
+          margin-bottom: 24px; }
+        .choose .fans .fans__img {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 15px;
+          grid-template-rows: 1fr 1fr; } }
   @media (min-width: 750px) {
-    .fans {
-      background-color: white;
-      font-size: 48px;
-      padding-top: 24px;
-      height: 72vh; }
-      .fans .button__fans {
-        height: 8.38vh;
-        width: 32vw;
-        font-size: 24px;
-        border-radius: 20.5px;
-        margin-top: 24px;
-        margin-bottom: 24px; }
-      .fans .fans__img {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 15px;
-        grid-template-rows: 1fr 1fr; } }
-
-.star1 {
-  height: 17.85vh;
-  width: auto;
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
-  align-self: center;
-  justify-self: center; }
-
-.star2 {
-  height: 17.85vh;
-  width: auto;
-  grid-column: 2 / 2;
-  grid-row: minmax 100px, auto;
-  align-self: center;
-  justify-self: center; }
-
-.star3 {
-  height: 17.85vh;
-  width: auto;
-  grid-column: 1 / 2;
-  grid-row: 2 / 2;
-  align-self: center;
-  justify-self: center; }
-
-.star4 {
-  height: 17.85vh;
-  width: auto;
-  grid-column: 2 / 2;
-  grid-row: 2 / 2;
-  align-self: center;
-  justify-self: center; }
-
-.eco {
-  height: auto;
-  width: 100vw;
-  padding: 16px 0px; }
-  .eco .eco__title {
-    color: #36BDCB;
-    text-align: center;
-    font-size: 24px;
-    font-family: "Baloo";
-    margin-top: 8px;
-    margin-bottom: 16px; }
-  .eco .yo {
-    margin-left: 16px;
-    margin-right: 16px; }
-  .eco .eco__plant, .eco .eco__shop, .eco .eco__earth {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-    margin-bottom: 32px;
-    font-size: 14px;
-    font-family: "Monsterrat Regular"; }
-  .eco .eco__plant img, .eco .eco__shop img, .eco .eco__earth img {
-    margin-bottom: 24px; }
-
-.footer {
-  height: 8vh;
-  width: 100vw;
-  background-color: #677577;
-  display: flex;
-  flex-direction: row;
-  font-family: "Monsterrat Regular";
-  font-size: 8px; }
-  .footer .text__footer {
-    font-size: 10px;
-    width: 24vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #FFFFFF;
-    margin-left: 16px; }
-  .footer .icons__footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    font-size: 10px;
-    width: 52vw;
-    color: #FFFFFF; }
-  .footer .text__footer1 {
-    width: 24vw;
-    font-size: 10px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #FFFFFF;
-    margin-right: 16px; }
-
-.header__bee {
-  display: flex;
-  background-color: #36BDCB;
-  width: 100vw;
-  height: 65px; }
-  .header__bee.logoBee {
-    object-fit: scale-down;
-    justify-content: center;
-    align-items: center; }
+      .choose .star1 {
+        height: 17.85vh;
+        width: auto;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        align-self: center;
+        justify-self: center; }
+      .choose .star2 {
+        height: 17.85vh;
+        width: auto;
+        grid-column: 2 / 2;
+        grid-row: minmax 100px, auto;
+        align-self: center;
+        justify-self: center; }
+      .choose .star3 {
+        height: 17.85vh;
+        width: auto;
+        grid-column: 1 / 2;
+        grid-row: 2 / 2;
+        align-self: center;
+        justify-self: center; }
+      .choose .star4 {
+        height: 17.85vh;
+        width: auto;
+        grid-column: 2 / 2;
+        grid-row: 2 / 2;
+        align-self: center;
+        justify-self: center; }
+      .choose .eco {
+        height: auto;
+        width: 100vw;
+        padding: 16px 0px; }
+        .choose .eco .eco__title {
+          color: #36BDCB;
+          text-align: center;
+          font-size: 24px;
+          font-family: "Baloo";
+          margin-top: 8px;
+          margin-bottom: 16px; }
+        .choose .eco .yo {
+          margin-left: 16px;
+          margin-right: 16px; }
+        .choose .eco .eco__plant, .choose .eco .eco__shop, .choose .eco .eco__earth {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-content: center;
+          text-align: center;
+          margin-bottom: 32px;
+          font-size: 14px;
+          font-family: "Monsterrat Regular"; }
+        .choose .eco .eco__plant img, .choose .eco .eco__shop img, .choose .eco .eco__earth img {
+          margin-bottom: 24px; }
+      .choose .footer {
+        height: 8vh;
+        width: 100vw;
+        background-color: #677577;
+        display: flex;
+        flex-direction: row;
+        font-family: "Monsterrat Regular";
+        font-size: 8px; }
+        .choose .footer .text__footer {
+          font-size: 10px;
+          width: 24vw;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          color: #FFFFFF;
+          margin-left: 16px; }
+        .choose .footer .icons__footer {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          font-size: 10px;
+          width: 52vw;
+          color: #FFFFFF; }
+        .choose .footer .text__footer1 {
+          width: 24vw;
+          font-size: 10px;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          color: #FFFFFF;
+          margin-right: 16px; }
+      .choose .header__bee {
+        display: flex;
+        background-color: #36BDCB;
+        width: 100vw;
+        height: 65px; }
+        .choose .header__bee.logoBee {
+          object-fit: scale-down;
+          justify-content: center;
+          align-items: center; } }
 
 @media (min-width: 750px) {
   nav {
