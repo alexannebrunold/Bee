@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="fr">
 
 <head>
@@ -10,26 +11,32 @@
 <script src="/style.js"></script></head>
 
 <body>
-    <header class="header"> <img src="/logo_bee.9a51414e.svg" alt="logo">
+    <header class="header">
+        <img src="/logo_bee.9a51414e.svg" alt="logo" class="header__logo">
+        <a href="/pages/cart.html"></a>
+            <nav id="burger__menu">
+                <ul class="lis">
+                    <li class="burger__li first__li">Concept</li>
+                    <li class="burger__li second__li">Nous trouver</li>
+                    <li class="burger__li third__li">A propos</li>
+                </ul>
+                <div class="open" id="open">
+                    <div class="open-icon"></div>
         <!--Logo -->
-        <nav id="burger__menu">
-            <ul class="lis">
-                <li class="burger__li first__li">Concept</li>
-                <li class="burger__li second__li">Nous trouver</li>
-                <li class="burger__li third__li">A propos</li>
-            </ul>
-            <div class="open" id="open">
-                <div class="open-icon"></div>
-            </div></nav>
-        </header>
+    </div></nav>
+</header>
+    
+    
     <!--Bannière-->
     <div class="banner">
-        <h1 class="slogan">Bee yourself, patch it.*</h1>
-        <!-- <figure class="jackets">
-            <img src='assets/img/mobile/landing/bannière/jacket_bleached_custom_mobile.png' class="left__jacket"
-                alt="veste bleach">
-             <img src='assets/img/mobile/landing/bannière/jacket_black_custom_mobile.png' class="right__jacket" alt="veste noir">
-        </figure> -->
+        <img src="/Arc-en-Ciel.4f736557.png" alt="" class="rainbow">
+        <h1 class="slogan">Bee yourself,<br> patch it.*</h1>
+
+        <figure class="jackets">
+            <img src="/jacket1 1.b0bbdb32.png" class="left__jacket" alt="veste bleach">
+            <img src="/jacket2 1.577e9e20.png" class="right__jacket" alt="veste noir">
+        </figure>
+
         <p class="sentence">Revivez les années 70 avec notre collection <br>de plus de 100 stickers pour patcher<br>
             votre jacket.</p>
     </div>
@@ -40,7 +47,7 @@
         <div class="choose__sections">
             <section class="choose__blue">
                 <img src="/Veste_Jean_Bleached 1.a9862f2a.png" alt="Blue jacket" class="blue__jacket">
-                <button type="button" class="button__choose">PERSONNALISER</button>
+                <button type="button" class="button__choose"><a href="/pages/custom.html">PERSONNALISER</a></button>
                 <p class="choose__price">À partir de 60$</p>
             </section>
 
@@ -51,7 +58,6 @@
             </section>
         </div>
     </article>
-
     <!-- Fans -->
 
     <article class="fans">
@@ -64,23 +70,18 @@
             <img src="/trippie_mobile.f5a0d957.png" alt="Star 4" class="star4">
         </figure>
     </article>
-
     <!-- Eco -->
-
     <article class="eco">
         <p class="eco__title">Notre petite touche à nous</p>
 
         <div class="yo">
             <div class="eco__plant">
-                <!-- <section class="eco__sections"> -->
                 <img src="/plant.c6887d19.svg" alt="Plant">
                 <p>Nous utilisons uniquement du chanvre pour confectionner nos vestes
                     qui est
                     un
                     matériaux textile naturel
                     capable d’absorber le CO2.</p>
-
-                <!-- </section> -->
             </div>
             <div class="eco__shop">
                 <img src="/shop.682a41df.svg" alt="Shop">
@@ -100,11 +101,10 @@
                     ou
                     enduits.
                     Elles sont également économe en resources.</p>
-                <!-- </section> -->
             </div>
         </div>
+        
     </article>
-
     <!-- Footer -->
 
     <footer class="footer">
@@ -122,6 +122,8 @@
         </div>
     </footer>
     <script defer="" src="/script.54efbb77.js"></script>
+
+
 </body>
 
 </html>

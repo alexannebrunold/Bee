@@ -270,6 +270,17 @@ li:not(:last-child) {
 .banner {
   background-color: #36BDCB;
   width: 100vw;
+  margin-bottom: 20%; }
+  .banner .burger__li {
+    opacity: 1;
+    font-size: 40px;
+    margin: -100px; }
+  .banner .burger__li:not(:last-child) {
+    margin-bottom: 0; }
+
+.banner {
+  background-color: #36BDCB;
+  width: 100vw;
   height: 50vh;
   position: absolute; }
   .banner .slogan {
@@ -314,12 +325,11 @@ li:not(:last-child) {
   margin-top: 52vh;
   padding-top: 16px;
   padding-bottom: 15px;
-  font-size: 24px;
-  font-family: "Baloo"; }
+  font-size: 24px; }
   .choose .button__choose {
     background-color: #36BDCB;
     border: none;
-    color: #FFFFFF;
+    color: #ffffff;
     height: 6vh;
     width: 48vw;
     font-size: 14px;
@@ -338,7 +348,8 @@ li:not(:last-child) {
     justify-content: center;
     align-items: center;
     margin-top: 24px; }
-  .choose .blue__jacket, .choose .dark__jacket {
+  .choose .blue__jacket,
+  .choose .dark__jacket {
     height: 46vh;
     width: auto;
     padding-top: 16px; }
@@ -346,31 +357,32 @@ li:not(:last-child) {
     color: black;
     font-size: 18px; }
   @media (min-width: 750px) {
-    .choose {
-      font-family: "Montserrat"; }
-      .choose .choose__title {
-        font-size: 48px;
-        font-family: "Baloo"; }
-      .choose .choose__sections {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly; }
-      .choose .button__choose {
-        width: 36vw;
-        height: 7.5vh;
-        text-align: center;
-        font-size: 24px; }
-      .choose .choose__price {
-        font-size: 18px; } }
+    .choose .choose__title {
+      font-size: 48px; }
+    .choose .choose__sections {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      justify-self: center; }
+    .choose .button__choose {
+      width: 18vw;
+      height: 7.5vh;
+      text-align: center;
+      font-size: 24px;
+      justify-self: center; }
+    .choose .choose__blue {
+      padding-right: 160px; }
+    .choose .choose__price {
+      font-size: 18px; } }
 
 .fans {
-  height: 56vh;
+  background-color: #D9F7FA;
+  height: 72vh;
   color: #36BDCB;
   text-align: center;
   padding-top: 16px;
   font-size: 24px; }
-  .fans .fans__title {
-    font-family: "Baloo"; }
   .fans .fans__img {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -380,7 +392,7 @@ li:not(:last-child) {
   .fans .button__fans {
     background-color: #36BDCB;
     border: none;
-    color: #FFFFFF;
+    color: #ffffff;
     height: 5vh;
     width: 48vw;
     font-size: 10px;
@@ -389,6 +401,211 @@ li:not(:last-child) {
     display: block;
     margin: auto;
     box-shadow: 4px 4px 0px #F6D6FC; }
+  @media (min-width: 750px) {
+    .fans {
+      font-size: 48px;
+      padding-top: 24px; }
+      .fans .button__fans {
+        height: 8.38vh;
+        width: 32vw;
+        font-size: 24px;
+        font-family: "Baloo"; }
+        .fans .button__fans .button__choose {
+          background-color: #36BDCB;
+          border: none;
+          color: #FFFFFF;
+          height: 6vh;
+          width: 48vw;
+          font-size: 14px;
+          border-radius: 20.5px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          display: block;
+          margin: auto;
+          text-align: center;
+          margin-bottom: 16px;
+          box-shadow: 4px 4px 0px #F6D6FC; }
+        .fans .button__fans .choose__sections {
+          font-size: 18px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          margin-top: 24px; }
+        .fans .button__fans .blue__jacket, .fans .button__fans .dark__jacket {
+          height: 46vh;
+          width: auto;
+          padding-top: 16px; }
+        .fans .button__fans .choose__price {
+          color: black;
+          font-size: 18px; } }
+    @media (min-width: 750px) and (min-width: 750px) {
+      .fans .button__fans {
+        font-family: "Montserrat"; }
+        .fans .button__fans .choose__title {
+          font-size: 48px;
+          font-family: "Baloo"; }
+        .fans .button__fans .choose__sections {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          justify-self: center; }
+        .fans .button__fans .choose__blue {
+          padding-right: 160px; }
+        .fans .button__fans .choose__price {
+          font-size: 18px;
+          justify-content: space-evenly; }
+        .fans .button__fans .button__choose {
+          width: 36vw;
+          height: 7.5vh;
+          text-align: center;
+          font-size: 24px; }
+        .fans .button__fans .choose__price {
+          font-size: 18px;
+          font-family: "Montserrat Light"; }
+        .fans .button__fans .fans {
+          height: 56vh;
+          color: #36BDCB;
+          text-align: center;
+          padding-top: 16px;
+          font-size: 24px; }
+          .fans .button__fans .fans .fans__title {
+            font-family: "Baloo"; }
+          .fans .button__fans .fans .fans__img {
+            border-radius: 20.5px;
+            margin-top: 24px;
+            margin-bottom: 24px; }
+          .fans .button__fans .fans .fans__img {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 15px;
+            grid-template-rows: 1fr 1fr;
+            padding-top: 32px; }
+          .fans .button__fans .fans .button__fans {
+            background-color: #36BDCB;
+            border: none;
+            color: #FFFFFF;
+            height: 5vh;
+            width: 48vw;
+            font-size: 10px;
+            border-radius: 20.5px;
+            margin-top: 50px;
+            display: block;
+            margin: auto;
+            box-shadow: 4px 4px 0px #F6D6FC; } }
+    @media (min-width: 750px) and (min-width: 750px) and (min-width: 750px) {
+      .fans .button__fans .fans {
+        background-color: white;
+        font-size: 48px;
+        padding-top: 24px;
+        height: 72vh; }
+        .fans .button__fans .fans .button__fans {
+          height: 8.38vh;
+          width: 32vw;
+          font-size: 24px;
+          border-radius: 20.5px;
+          margin-top: 24px;
+          margin-bottom: 24px; }
+        .fans .button__fans .fans .fans__img {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 15px;
+          grid-template-rows: 1fr 1fr; } }
+    @media (min-width: 750px) and (min-width: 750px) {
+        .fans .button__fans .star1 {
+          height: 17.85vh;
+          width: auto;
+          grid-column: 1 / 2;
+          grid-row: 1 / 2;
+          align-self: center;
+          justify-self: center; }
+        .fans .button__fans .star2 {
+          height: 17.85vh;
+          width: auto;
+          grid-column: 2 / 2;
+          grid-row: minmax 100px, auto;
+          align-self: center;
+          justify-self: center; }
+        .fans .button__fans .star3 {
+          height: 17.85vh;
+          width: auto;
+          grid-column: 1 / 2;
+          grid-row: 2 / 2;
+          align-self: center;
+          justify-self: center; }
+        .fans .button__fans .star4 {
+          height: 17.85vh;
+          width: auto;
+          grid-column: 2 / 2;
+          grid-row: 2 / 2;
+          align-self: center;
+          justify-self: center; }
+        .fans .button__fans .eco {
+          height: auto;
+          width: 100vw;
+          padding: 16px 0px; }
+          .fans .button__fans .eco .eco__title {
+            text-align: center;
+            font-size: 24px;
+            font-family: "Baloo";
+            margin-top: 8px;
+            margin-bottom: 16px; }
+          .fans .button__fans .eco .yo {
+            margin-left: 16px;
+            margin-right: 16px; }
+          .fans .button__fans .eco .eco__plant, .fans .button__fans .eco .eco__shop, .fans .button__fans .eco .eco__earth {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            text-align: center;
+            margin-bottom: 32px;
+            font-size: 14px;
+            font-family: "Monsterrat Regular"; }
+          .fans .button__fans .eco .eco__plant img, .fans .button__fans .eco .eco__shop img, .fans .button__fans .eco .eco__earth img {
+            margin-bottom: 24px; }
+        .fans .button__fans .footer {
+          height: 8vh;
+          width: 100vw;
+          background-color: #677577;
+          display: flex;
+          flex-direction: row;
+          font-family: "Monsterrat Regular";
+          font-size: 8px; }
+          .fans .button__fans .footer .text__footer {
+            font-size: 10px;
+            width: 24vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: #FFFFFF;
+            margin-left: 16px; }
+          .fans .button__fans .footer .icons__footer {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            font-size: 10px;
+            width: 52vw;
+            color: #FFFFFF; }
+          .fans .button__fans .footer .text__footer1 {
+            width: 24vw;
+            font-size: 10px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: #FFFFFF;
+            margin-right: 16px; }
+        .fans .button__fans .header__bee {
+          display: flex;
+          background-color: #36BDCB;
+          width: 100vw;
+          height: 65px; }
+          .fans .button__fans .header__bee.logoBee {
+            object-fit: scale-down;
+            justify-content: center;
+            align-items: center; } }
 
 .star1 {
   height: 17.85vh;
@@ -422,35 +639,19 @@ li:not(:last-child) {
   align-self: center;
   justify-self: center; }
 
-.footer {
-  height: 9.95vh;
+.eco {
+  background-color: #FFFFC4;
+  height: auto;
   width: 100vw;
-  background-color: #677577;
-  display: flex;
-  flex-direction: row; }
-  .footer .text__footer {
-    font-size: 10px;
-    width: 24vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #FFFFFF;
-    margin-left: 16px; }
-  .footer .icons__footer {
-    justify-content: center;
-    font-size: 10px;
-    width: 52vw;
-    margin-top: 3vh;
-    color: #FFFFFF; }
-  .footer .text__footer1 {
-    width: 24vw;
-    font-size: 10px;
+  padding: 16px 0px; }
+  .eco .eco__title {
+    color: #36BDCB;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #FFFFFF;
-    margin-right: 16px; }
+    font-size: 24px; }
+  .eco .eco__sections {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 24px; }
 
 .footer {
   height: 9.95vh;
@@ -464,14 +665,14 @@ li:not(:last-child) {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #FFFFFF;
+    color: #ffffff;
     margin-left: 16px; }
   .footer .icons__footer {
     justify-content: center;
     font-size: 10px;
     width: 52vw;
     margin-top: 3vh;
-    color: #FFFFFF; }
+    color: #ffffff; }
   .footer .text__footer1 {
     width: 24vw;
     font-size: 10px;
@@ -479,62 +680,190 @@ li:not(:last-child) {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #FFFFFF;
+    color: #ffffff;
     margin-right: 16px; }
+
+.header__bee {
+  display: flex;
+  background-color: #36BDCB;
+  width: 100vw;
+  height: 65px; }
+  .header__bee.logoBee {
+    object-fit: scale-down;
+    justify-content: center;
+    align-items: center; }
+
+.title {
+  display: flex; }
+
+.personalisation__title {
+  font-size: 24px;
+  color: #36BDCB;
+  text-align: center;
+  margin-bottom: 16px; }
+
+.personalisation__color {
+  text-align: center; }
+
+.personalisation__bleach {
+  margin-right: 28px; }
+
+.personalisation__titleSize {
+  font-size: 24px;
+  margin: 24px;
+  text-align: center; }
+
+.personalisation__collec {
+  text-align: center; }
+
+.personalisation__patch {
+  margin-right: 22px;
+  margin-bottom: 16px; }
+
+.board {
+  border: solid black 0.1px;
+  width: 300px;
+  margin-left: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 16px; }
+
+.board__patch {
+  margin-left: 21px;
+  margin-right: 21px;
+  margin-top: 16px; }
+
+.save {
+  background-color: #36BDCB;
+  color: white;
+  height: 36px;
+  width: 146px;
+  border: none;
+  margin: auto;
+  margin-top: 48px;
+  border-radius: 20.5px;
+  display: block;
+  box-shadow: 4px 4px 0px #F6D6FC; }
+
+.addBasket {
+  background-color: #36BDCB;
+  color: white;
+  height: 36px;
+  width: 191px;
+  border: none;
+  margin: auto;
+  margin-top: 32px;
+  border-radius: 20.5px;
+  display: block;
+  box-shadow: 4px 4px 0px #F6D6FC; }
+
+.header__bee {
+  display: flex;
+  background-color: #36BDCB;
+  width: 100vw;
+  height: 65px; }
+  .header__bee.logoBee {
+    object-fit: scale-down;
+    justify-content: center;
+    align-items: center; }
+
+.title {
+  display: flex; }
+
+.jacket__view {
+  display: flex;
+  background-color: #F6D6FC;
+  height: 312px;
+  width: 288px;
+  margin-top: 24px;
+  justify-content: center;
+  align-items: center; }
 
 @media (min-width: 750px) {
-  nav {
+  .header {
+    position: fixed;
     top: 0;
-    left: 0;
-    border-radius: 0;
-    width: 100%;
-    position: static; }
-    nav .open {
-      display: none; }
-    nav .lis {
+    left: 0; }
+    .header .header__logo {
+      position: sticky;
+      left: 46%;
+      z-index: 1;
+      opacity: 0.5;
+      background-color: black; }
+    .header .lis {
       position: static;
       opacity: 1;
       transform: none;
       height: 100%;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: space-around; }
-    nav .burger__li {
-      width: 78px;
-      height: 16px;
-      left: 74px;
-      top: 24px;
-      font-family: Montserrat;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 18px;
-      line-height: 22px; }
-    nav .burger__li:not(:last-child) {
+    .header .burger__li:not(:last-child) {
       margin-bottom: 0; }
-  .jackets {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  .banner {
+    background-color: #36BDCB;
+    width: 100vw;
+    height: 50vh;
     position: absolute;
-    overflow: hidden;
-    top: -4%;
-    right: -64vw;
-    width: auto;
-    height: 100vh; }
-    .jackets .left__jacket {
+    top: 0;
+    left: 0; }
+    .banner .slogan {
       position: relative;
-      bottom: 25vh;
-      right: 13%;
-      width: auto;
-      height: 43vh;
-      transform: rotate(-25.79deg); }
-    .jackets .right__jacket {
+      top: -107vh;
+      font-family: Baloo;
+      color: white;
+      left: 35vw;
+      z-index: 1;
+      font-size: 60px; }
+    .banner .rainbow {
       position: relative;
-      width: auto;
-      bottom: 19vh;
-      right: 24%;
-      height: 45vh;
-      transform: rotate(36deg); }
+      bottom: 20vh;
+      width: 100vw; }
+    .banner .jackets {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 39%;
+      right: 10vw;
+      width: 100%;
+      height: 100%;
+      box-shadow: none; }
+      .banner .jackets .left__jacket {
+        position: relative;
+        width: auto;
+        bottom: 0vh;
+        right: 15%;
+        height: 45vh;
+        transform: rotate(12deg); }
+      .banner .jackets .right__jacket {
+        position: relative;
+        bottom: 25vh;
+        right: 13%;
+        width: auto;
+        height: 43vh;
+        transform: rotate(-3.79deg); }
+    .banner .sentence {
+      text-align: center;
+      position: relative;
+      top: -101vh;
+      flex-flow: column wrap;
+      color: white;
+      left: 35vw; }
+    .banner .button__fans {
+      height: 8.38vh;
+      width: 32vw;
+      font-size: 24px;
+      border-radius: 20.5px;
+      margin-top: 24px;
+      margin-bottom: 24px; }
+    .banner .fans__img {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 15px;
+      grid-template-rows: 1fr 1fr; }
+  .eco {
+    background-color: white; }
   .eco__title {
     font-size: 48px; }
   .yo {
