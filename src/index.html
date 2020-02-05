@@ -1,18 +1,24 @@
 <!DOCTYPE html>
+
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.scss">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.scss" />
     <title><img src="">Bee</title>
-</head>
-
-<body>
-    <header class='header'> <img src="assets/img/mobile/landing/header/logo_bee.svg" alt="logo">
-        <!--Logo -->
-        <nav id='burger__menu'>
+  </head>
+  <body>
+    <header class="header">
+      <img src="assets/img/mobile/landing/header/logo_bee.svg" alt="logo" />
+      <a href="../src/pages/cart.html">
+        <img
+          src="../src/assets/img/desktop/landing/header/cart.svg"
+          alt="Panier"
+          class="cart__logo"
+      /></a>
+      <!--Logo -->
+    <nav id='burger__menu'>
             <ul class="lis">
                 <li class="burger__li first__li">Concept</li>
                 <li class="burger__li second__li">Nous trouver</li>
@@ -22,6 +28,8 @@
                 <div class="open-icon"></div>
             </nav>
         </header>
+        </ul>
+    </nav>
     <!--Bannière-->
     <div class="banner">
         <h1 class="slogan">Bee yourself, patch it.*</h1>
@@ -34,7 +42,7 @@
             votre jacket.</p>
     </div>
     <!-- Choisir le modèle -->
-
+  
     <article class="choose">
         <p class="choose__title">Choisis ton modèle</p>
         <div class="choose__sections">
@@ -43,7 +51,6 @@
                 <button type="button" class="button__choose">PERSONNALISER</button>
                 <p class="choose__price">À partir de 60$</p>
             </section>
-
             <section class="choose__dark">
                 <img src="assets/img/mobile/landing/Veste_Jean_Noire 1.png" alt="Dark jacket" class="dark__jacket">
                 <button type="button" class="button__choose">PERSONNALISER</button>
@@ -51,36 +58,46 @@
             </section>
         </div>
     </article>
-
     <!-- Fans -->
-
     <article class="fans">
-        <p class="fans__title">Ils sont déjà fan de Bee</p>
-        <button type="button" class="button__fans">Suivez-nous sur Instagram</button>
-        <figure class="fans__img">
-            <img src="assets/img/mobile/landing/social/jaden_mobile.png" alt="Star 1" class="star1">
-            <img src="assets/img/mobile/landing/social/bobbie_brown.png" alt="Star 2" class="star2">
-            <img src="assets/img/mobile/landing/social/bobbie_brown.png" alt="Star 3" class="star3">
-            <img src="assets/img/mobile/landing/social/trippie_mobile.png" alt="Star 4" class="star4">
-        </figure>
+      <p>Ils sont déjà fan de Bee</p>
+      <button type="button" class="button__fans">
+        Suivez-nous sur Instagram
+      </button>
+      <figure class="fans__img">
+        <img
+          src="assets/img/mobile/landing/social/jaden_mobile.png"
+          alt="Star 1"
+          class="star1"
+        />
+        <img
+          src="assets/img/mobile/landing/social/bobbie_brown.png"
+          alt="Star 2"
+          class="star2"
+        />
+        <img
+          src="assets/img/mobile/landing/social/bobbie_brown.png"
+          alt="Star 3"
+          class="star3"
+        />
+        <img
+          src="assets/img/mobile/landing/social/trippie_mobile.png"
+          alt="Star 4"
+          class="star4"
+        />
+      </figure>
     </article>
-
     <!-- Eco -->
-
     <article class="eco">
         <p class="eco__title">Notre petite touche à nous</p>
-
         <div class="yo">
             <div class="eco__plant">
-                <!-- <section class="eco__sections"> -->
                 <img src="assets/img/mobile/landing/eco/plant.svg" alt="Plant">
                 <p>Nous utilisons uniquement du chanvre pour confectionner nos vestes
                     qui est
                     un
                     matériaux textile naturel
                     capable d’absorber le CO2.</p>
-
-                <!-- </section> -->
             </div>
             <div class="eco__shop">
                 <img src="assets/img/mobile/landing/eco/shop.svg" alt="Shop">
@@ -100,28 +117,31 @@
                     ou
                     enduits.
                     Elles sont également économe en resources.</p>
-                <!-- </section> -->
             </div>
-        </div>
+      </div>
     </article>
 
     <!-- Footer -->
 
     <footer class="footer">
-        <div class="text__footer">
-            <p>Mentions légales</p>
-        </div>
-        <figure class="icons__footer">
-            <img src="assets/img/mobile/landing/footer/instagram.svg" alt="Instagram">
-            <img src="assets/img/mobile/landing/footer/facebook.svg" alt="Facebook">
-            <img src="assets/img/mobile/landing/footer/twitter.svg" alt="Twitter">
-        </figure>
-        <div class="text__footer1">
-            <p>© Copyright 2020 Bee
-                Tous droits réservés</p>
-        </div>
+      <div class="text__footer">
+        <p>Mentions légales</p>
+      </div>
+      <figure class="icons__footer">
+        <img
+          src="assets/img/mobile/landing/footer/instagram.svg"
+          alt="Instagram"
+        />
+        <img
+          src="assets/img/mobile/landing/footer/facebook.svg"
+          alt="Facebook"
+        />
+        <img src="assets/img/mobile/landing/footer/twitter.svg" alt="Twitter" />
+      </figure>
+      <div class="text__footer1">
+        <p>© Copyright 2020 Bee Tous droits réservés</p>
+      </div>
     </footer>
-    <script defer src='JavaScript/script.js'></script>
-</body>
-
+    <script defer src="JavaScript/script.js"></script>
+  </body>
 </html>

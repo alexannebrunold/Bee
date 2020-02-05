@@ -36,6 +36,7 @@ line-height: 22px;
       margin-bottom: 0;
     }
   }
+
   .jackets {
     display: flex;
     flex-direction: row;
@@ -62,9 +63,28 @@ line-height: 22px;
         right: 24%;
         height: 45vh;
         transform: rotate(36deg);
-
     }
   }
+  background-color: white;
+      font-size: 48px;
+      padding-top: 24px;
+      height: 72vh;
+
+      .button__fans{
+        height: 8.38vh;
+        width: 32vw;
+        font-size: 24px;
+        border-radius: 20.5px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+      }
+      .fans__img{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+        grid-template-rows: 1fr 1fr;
+      }
+      }   
     .eco__title{
       font-size: 48px;
     }
@@ -92,4 +112,6 @@ line-height: 22px;
         justify-content: space-evenly;
         align-items: center;
       }
+
     }
+
