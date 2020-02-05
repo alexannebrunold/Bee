@@ -323,3 +323,21 @@ nav.is-open {
   display: flex;
 }
 
+
+// Cart
+
+
+.header__bee {
+  display: flex;
+  background-color: $primarycolor;
+  width: 100vw;
+  height: 65px;
+  &.logoBee {
+    object-fit: scale-down;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.title {
+  display: flex;
+}
