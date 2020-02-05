@@ -1,94 +1,102 @@
-@font-face{
+@media (min-width: 750px) {
+  @font-face {
     font-family: "Baloo";
-    src: url("../src/assets/fonts/baloo/baloo-v5-latin-regular.woff") format("woff");
-    src: url("../src/assets/fonts/baloo/baloo-v5-latin-regular.woff2") format("woff2");
+    src: url("../src/assets/fonts/baloo/baloo-v5-latin-regular.woff")
+      format("woff");
+    src: url("../src/assets/fonts/baloo/baloo-v5-latin-regular.woff2")
+      format("woff2");
   }
-  @font-face{
+  @font-face {
     font-family: "Montserrat Light";
-    src: url("../src/assets/fonts/montserrat/Montserrat-Light.woff") format("woff");
-    src: url("../src/assets/fonts/montserrat/Montserrat-Light.woff2") format("woff2");
+    src: url("../src/assets/fonts/montserrat/Montserrat-Light.woff")
+      format("woff");
+    src: url("../src/assets/fonts/montserrat/Montserrat-Light.woff2")
+      format("woff2");
   }
-  @font-face{
+  @font-face {
     font-family: "Montserrat Medium";
-    src: url("../src/assets/fonts/montserrat/Montserrat-Medium.woff") format("woff");
-    src: url("../src/assets/fonts/montserrat/Montserrat-Medium.woff2") format("woff2");
+    src: url("../src/assets/fonts/montserrat/Montserrat-Medium.woff")
+      format("woff");
+    src: url("../src/assets/fonts/montserrat/Montserrat-Medium.woff2")
+      format("woff2");
   }
-  @font-face{
+  @font-face {
     font-family: "Montserrat Regular";
-    src: url("../src/assets/fonts/montserrat/Montserrat-Regular.woff") format("woff");
-    src: url("../src/assets/fonts/montserrat/Montserrat-Regular.woff2") format("woff2");
+    src: url("../src/assets/fonts/montserrat/Montserrat-Regular.woff")
+      format("woff");
+    src: url("../src/assets/fonts/montserrat/Montserrat-Regular.woff2")
+      format("woff2");
   }
-  @font-face{
+  @font-face {
     font-family: "Montserrat Semi-Bold";
-    src: url("../src/assets/fonts/montserrat/Montserrat-SemiBold.woff") format("woff");
-    src: url("../src/assets/fonts/montserrat/Montserrat-SemiBold.woff2") format("woff2");
+    src: url("../src/assets/fonts/montserrat/Montserrat-SemiBold.woff")
+      format("woff");
+    src: url("../src/assets/fonts/montserrat/Montserrat-SemiBold.woff2")
+      format("woff2");
   }
-   
-  body{
-   margin: 0;
-   padding:0;
-  
-  $primarycolor: #36BDCB;
-  $secondarycolor: #D9F7FA;
-  $thirdcolor:  #F6D6FC;
-  $fourthcolor: #FFD9C9;
-  $fifthcolor: #FFFFC4;
-  $footercolor: #677577;
-.header {
-    background-color:$primarycolor;
-    display:flex;
-    justify-content: space-around;
-    align-items: baseline;
- 
- }
 
-// vestes
-  .jackets {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    overflow: hidden;
-    top: -4%;
-    right: -64vw;
-    width: auto;
-    height: 100vh;
-    .left__jacket {
+  body {
+    margin: 0;
+    padding: 0;
+
+    $primarycolor: #36bdcb;
+    $secondarycolor: #d9f7fa;
+    $thirdcolor: #f6d6fc;
+    $fourthcolor: #ffd9c9;
+    $fifthcolor: #ffffc4;
+    $footercolor: #677577;
+    .header {
+      background-color: $primarycolor;
+      display: flex;
+      justify-content: space-around;
+      align-items: baseline;
+    }
+
+    // vestes
+    .jackets {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      overflow: hidden;
+      top: -4%;
+      right: -64vw;
+      width: auto;
+      height: 100vh;
+      .left__jacket {
         position: relative;
         bottom: 25vh;
         right: 13%;
         width: auto;
         height: 43vh;
         transform: rotate(-25.79deg);
-    }
-    .right__jacket {
+      }
+      .right__jacket {
         position: relative;
         width: auto;
         bottom: 19vh;
         right: 24%;
         height: 45vh;
         transform: rotate(36deg);
-
-  }
-}
-@media (min-width:750px) {
-    width: 100vw;
-    margin: 0;
-    padding: 0;
-    padding-top: 24px;
-    .eco__title{
-      font-size: 48px;
-    }
-    .yo{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
       }
-      .eco__plant{
+    }
+    @media (min-width: 750px) {
+      width: 100vw;
+      margin: 0;
+      padding: 0;
+      padding-top: 24px;
+      .eco__title {
+        font-size: 48px;
+      }
+      .yo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .eco__plant {
         flex-direction: column;
       }
-   }
-   }
-
-
+    }
+  }
+}
