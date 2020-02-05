@@ -1,6 +1,42 @@
-
-  @media (min-width:750px){
+@media (min-width:750px){
   // vestes
+  nav {
+      top: 0;
+      left: 0;
+      border-radius: 0;
+      width: 100%;
+    .open {
+      display: none;
+    }
+    
+    .lis {
+      position: static;
+      opacity: 1;
+      transform: none;
+      height: 100%;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    
+    .burger__li {
+      width: 78px;
+height: 16px;
+left: 74px;
+top: 24px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+
+    }
+    
+    .burger__li:not(:last-child) {
+      margin-bottom: 0;
+    }
+  }
+
   .jackets {
     display: flex;
     flex-direction: row;
@@ -13,27 +49,42 @@
     width: auto;
     height: 100vh;
     .left__jacket {
-
         position: relative;
         bottom: 25vh;
         right: 13%;
         width: auto;
         height: 43vh;
         transform: rotate(-25.79deg);
-
-      }
-      .right__jacket {
-
+    }
+    .right__jacket {
         position: relative;
         width: auto;
         bottom: 19vh;
         right: 24%;
         height: 45vh;
         transform: rotate(36deg);
-
-
     }
   }
+  background-color: white;
+      font-size: 48px;
+      padding-top: 24px;
+      height: 72vh;
+
+      .button__fans{
+        height: 8.38vh;
+        width: 32vw;
+        font-size: 24px;
+        border-radius: 20.5px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+      }
+      .fans__img{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+        grid-template-rows: 1fr 1fr;
+      }
+      }   
     .eco__title{
       font-size: 48px;
     }
@@ -61,5 +112,6 @@
         justify-content: space-evenly;
         align-items: center;
       }
+
     }
 
