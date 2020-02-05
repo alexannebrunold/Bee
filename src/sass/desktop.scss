@@ -1,0 +1,59 @@
+  @media (min-width:750px){
+  // vestes
+  .jackets {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    overflow: hidden;
+    top: -4%;
+    right: -64vw;
+    width: auto;
+    height: 100vh;
+    .left__jacket {
+        position: relative;
+        bottom: 25vh;
+        right: 13%;
+        width: auto;
+        height: 43vh;
+        transform: rotate(-25.79deg);
+    }
+    .right__jacket {
+        position: relative;
+        width: auto;
+        bottom: 19vh;
+        right: 24%;
+        height: 45vh;
+        transform: rotate(36deg);
+
+    }
+  }
+    .eco__title{
+      font-size: 48px;
+    }
+    .yo{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      }
+      .eco__plant{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      .eco__shop{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      .eco__earth{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+    }

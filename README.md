@@ -1,7 +1,7 @@
 # Bee
 
-Melvyn Dadure
 Louis Fleury
+Melvyn Dadure
 Alexanne Brunold
 Romain Danizel
 Pierre-Alexis Maerten
