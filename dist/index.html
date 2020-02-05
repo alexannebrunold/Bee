@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="fr">
 
 <head>
@@ -7,26 +8,36 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/style.css">
     <title><img src="">Bee</title>
-</head>
+<script src="/style.js"></script></head>
 
 <body>
-    <header class="header"> <img src="/7480cb7d56f00f9287c0854a9a51414e.svg" alt="logo">
+    <header class="header">
+        <img src="/logo_bee.9a51414e.svg" alt="logo">
+        <a href="/pages/cart.html">
+            <img src="/cart.c6c7441d.svg" alt="Panier" class="cart__logo"></a>
         <!--Logo -->
+        <nav id="burger__menu">
+            <ul class="lis">
+                <li class="burger__li first__li">Concept</li>
+                <li class="burger__li second__li">Nous trouver</li>
+                <li class="burger__li third__li">A propos</li>
+            </ul>
+            <div class="open" id="open">
+                <div class="open-icon"></div>
+        </div></nav>
     </header>
-    <nav id="burger__menu">
-        <ul class="lis">
-            <li class="burger__li first__li">Concept</li>
-            <li class="burger__li second__li">Nous trouver</li>
-            <li class="burger__li third__li">A propos</li>
-        </ul>
-    </nav>
+    
+    
     <!--Bannière-->
     <div class="banner">
         <h1 class="slogan">Bee yourself, patch it.*</h1>
+
+
         <figure class="jackets">
-            <img src="/1e233fc68f352a7a1b803faac32e61dc.png" class="left__jacket" alt="veste bleach">
-            <img src="/3ebc918181a92c2696a41cf1eb34d9e0.png" class="right__jacket" alt="veste noir">
+            <img src="/jacket_bleached_custom_mobile.c32e61dc.png" class="left__jacket" alt="veste bleach">
+            <img src="/jacket_black_custom_mobile.eb34d9e0.png" class="right__jacket" alt="veste noir">
         </figure>
+
         <p class="sentence">Revivez les années 70 avec notre collection <br>de plus de 100 stickers pour patcher<br>
             votre jacket.</p>
     </div>
@@ -36,70 +47,80 @@
         <p class="choose__title">Choisis ton modèle</p>
         <div class="choose__sections">
             <section class="choose__blue">
-                <img src="/996b3192215878722f7e44fba9862f2a.png" alt="Blue jacket" class="blue__jacket">
-                <button type="button" class="button__choose"><a href="/9bc03dd26b0cdc85080223a1d62329b3.html">PERSONNALISER</a></button>
+                <img src="/Veste_Jean_Bleached 1.a9862f2a.png" alt="Blue jacket" class="blue__jacket">
+                <button type="button" class="button__choose"><a href="/pages/custom.html">PERSONNALISER</a></button>
                 <p class="choose__price">À partir de 60$</p>
             </section>
 
             <section class="choose__dark">
-                <img src="/11e4c4220485ddc842dd1c50d1ca1c1c.png" alt="Dark jacket" class="dark__jacket">
+                <img src="/Veste_Jean_Noire 1.d1ca1c1c.png" alt="Dark jacket" class="dark__jacket">
                 <button type="button" class="button__choose">PERSONNALISER</button>
                 <p class="choose__price">À partir de 60$</p>
             </section>
         </div>
     </article>
-
     <!-- Fans -->
 
     <article class="fans">
-        <p>Ils sont déjà fan de Bee</p>
+        <p class="fans__title">Ils sont déjà fan de Bee</p>
         <button type="button" class="button__fans">Suivez-nous sur Instagram</button>
         <figure class="fans__img">
-            <img src="/39627ebc0d47b33a7a506e270391bed3.png" alt="Star 1" class="star1">
-            <img src="/5294e8d93a0983455a9b8be634b1b448.png" alt="Star 2" class="star2">
-            <img src="/5294e8d93a0983455a9b8be634b1b448.png" alt="Star 3" class="star3">
-            <img src="/968e61a0fca3c1baeab4992ef5a0d957.png" alt="Star 4" class="star4">
+            <img src="/jaden_mobile.0391bed3.png" alt="Star 1" class="star1">
+            <img src="/bobbie_brown.34b1b448.png" alt="Star 2" class="star2">
+            <img src="/bobbie_brown.34b1b448.png" alt="Star 3" class="star3">
+            <img src="/trippie_mobile.f5a0d957.png" alt="Star 4" class="star4">
         </figure>
     </article>
 
-    <!-- Eco -->
 
+    <!-- Fans -->
+    <article class="fans">
+        <p>Ils sont déjà fan de Bee</p>
+        <button type="button" class="button__fans">
+            Suivez-nous sur Instagram
+        </button>
+        <figure class="fans__img">
+            <img src="/jaden_mobile.0391bed3.png" alt="Star 1" class="star1">
+            <img src="/bobbie_brown.34b1b448.png" alt="Star 2" class="star2">
+            <img src="/bobbie_brown.34b1b448.png" alt="Star 3" class="star3">
+            <img src="/trippie_mobile.f5a0d957.png" alt="Star 4" class="star4">
+        </figure>
+    </article>
+    <!-- Eco -->
     <article class="eco">
         <p class="eco__title">Notre petite touche à nous</p>
 
         <div class="yo">
-            <section class="eco__plant eco__sections">
-                <img src="/004db4c2e6fda1d19e2ecdfcc6887d19.svg" alt="Plant">
-
-                <p class="eco__plant__text">Nous utilisons uniquement du chanvre pour confectionner nos vestes qui est
+            <div class="eco__plant">
+                <img src="/plant.c6887d19.svg" alt="Plant">
+                <p>Nous utilisons uniquement du chanvre pour confectionner nos vestes
+                    qui est
                     un
                     matériaux textile naturel
                     capable d’absorber le CO2.</p>
-
-            </section>
-
-            <section class="eco__shop eco__sections">
-                <img src="/947f805b66944a34041e2d1a682a41df.svg" alt="Shop">
-
-                <p class="eco__shop__text">L’émission de CO2 est limité, notre site de production se situe à moins de
+            </div>
+            <div class="eco__shop">
+                <img src="/shop.682a41df.svg" alt="Shop">
+                <p>L’émission de CO2 est limité, notre site de production se situe à
+                    moins de
                     30km
                     de
                     notre site de vente et
                     nous ne livrons pas.</p>
 
-            </section>
+            </div>
 
-            <section class="eco__earth eco__sections">
-                <img src="/84e2f527a713a8487c7ab00adb455845.svg" alt="Earth">
-
-                <p class="eco__earth__text">Nos vestes sont dépourvues de substances néfastes comme certaines teintures
+            <div class="eco__earth">
+                <img src="/earth.db455845.svg" alt="Earth">
+                <p>Nos vestes sont dépourvues de substances néfastes comme certaines
+                    teintures
                     ou
                     enduits.
                     Elles sont également économe en resources.</p>
-            </section>
+            </div>
         </div>
+        
     </article>
-
     <!-- Footer -->
 
     <footer class="footer">
@@ -107,16 +128,17 @@
             <p>Mentions légales</p>
         </div>
         <figure class="icons__footer">
-            <img src="/cdf93b86285cede892e2ab2d17a9b6e0.svg" alt="Instagram">
-            <img src="/2e4618bebb2952bcaa41412ba8219ca5.svg" alt="Facebook">
-            <img src="/890855e46cde6ca2f738a34e47260ea4.svg" alt="Twitter">
+            <img src="/instagram.17a9b6e0.svg" alt="Instagram">
+            <img src="/facebook.a8219ca5.svg" alt="Facebook">
+            <img src="/twitter.47260ea4.svg" alt="Twitter">
         </figure>
         <div class="text__footer1">
             <p>© Copyright 2020 Bee
                 Tous droits réservés</p>
         </div>
     </footer>
-    <script defer="" src="/6a8ca649b1bb7b0bf2338d5e54efbb77.js"></script>
+    <script defer="" src="/script.54efbb77.js"></script>
+
 
 </body>
 

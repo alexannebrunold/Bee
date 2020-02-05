@@ -506,7 +506,6 @@ li:not(:last-child) {
     padding: 16px 0px;
 
    .eco__title{
-    color: $primarycolor;
     text-align: center;
     font-size: 24px;
     font-family: "Baloo";
@@ -629,19 +628,16 @@ li:not(:last-child) {
   height: auto;
   width: 100vw;
   padding: 16px 0px;
-  border: 2px solid red;
 
   .eco__title {
     color: $primarycolor;
     text-align: center;
     font-size: 24px;
-    border: 2px solid blue;
   }
   .eco__sections {
     font-size: 14px;
     text-align: center;
     margin-top: 24px;
-    border: 2px solid pink;
   }
 }
 .footer {
