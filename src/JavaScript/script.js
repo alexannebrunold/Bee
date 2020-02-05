@@ -5,3 +5,4 @@ const ul = document.querySelector('.lis')
 burger.addEventListener('click', function(){
   burger.classList.toggle('is-open')
 })
+

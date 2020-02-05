@@ -1,1 +1,3 @@
+
 {"version":3,"sources":["JavaScript/script.js"],"names":["burger","document","getElementById","ul","querySelector","addEventListener","classList","toggle"],"mappings":"AACA,IAAMA,MAAM,GAAGC,QAAQ,CAACC,cAAT,CAAwB,cAAxB,CAAf;AACA,IAAMC,EAAE,GAAGF,QAAQ,CAACG,aAAT,CAAuB,MAAvB,CAAX;AAEAJ,MAAM,CAACK,gBAAP,CAAwB,OAAxB,EAAiC,YAAU;AACzCL,EAAAA,MAAM,CAACM,SAAP,CAAiBC,MAAjB,CAAwB,SAAxB;AACD,CAFD","file":"script.54efbb77.js","sourceRoot":"../src","sourcesContent":["\nconst burger = document.getElementById('burger__menu')\nconst ul = document.querySelector('.lis')\n \nburger.addEventListener('click', function(){\n  burger.classList.toggle('is-open')\n})\n"]}
+

@@ -122,6 +122,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+
 @font-face {
   font-family: "Baloo";
   src: url("/baloo-v5-latin-regular.c585f5c1.woff") format("woff");
@@ -147,10 +148,10 @@ table {
   src: url("/Montserrat-SemiBold.2c3100ec.woff") format("woff");
   src: url("/Montserrat-SemiBold.2960d270.woff2") format("woff2"); }
 
+
 body {
   margin: 0;
   padding: 0; }
-
 nav {
   background-color: greenyellow;
   position: fixed;
@@ -238,12 +239,14 @@ nav.is-open {
   text-align: center;
   margin-top: 52vh;
   padding-top: 16px;
+
   padding-bottom: 15px;
   font-size: 24px; }
   .choose .button__choose {
     background-color: #36BDCB;
     border: none;
     color: #FFFFFF;
+
     height: 6vh;
     width: 48vw;
     font-size: 14px;
@@ -264,6 +267,7 @@ nav.is-open {
     margin-top: 24px; }
   .choose .blue__jacket, .choose .dark__jacket {
     height: 46vh;
+
     width: auto;
     padding-top: 16px; }
   .choose .choose__price {
@@ -296,16 +300,20 @@ nav.is-open {
   text-align: center;
   padding-top: 16px;
   font-size: 24px; }
+
   .fans .fans__img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 15px;
     grid-template-rows: 1fr 1fr;
+
     padding-top: 32px; }
+
   .fans .button__fans {
     background-color: #36BDCB;
     border: none;
     color: #FFFFFF;
+
     height: 5vh;
     width: 48vw;
     font-size: 10px;
@@ -335,30 +343,37 @@ nav.is-open {
   height: 17.85vh;
   width: auto;
   grid-column: 1 / 2;
+
   grid-row: 1 / 2;
   align-self: center;
   justify-self: center; }
+
 
 .star2 {
   height: 17.85vh;
   width: auto;
   grid-column: 2 / 2;
+
   grid-row: minmax 100px, auto;
   align-self: center;
   justify-self: center; }
+
 
 .star3 {
   height: 17.85vh;
   width: auto;
   grid-column: 1 / 2;
+
   grid-row: 2 / 2;
   align-self: center;
   justify-self: center; }
+
 
 .star4 {
   height: 17.85vh;
   width: auto;
   grid-column: 2 / 2;
+
   grid-row: 2 / 2;
   align-self: center;
   justify-self: center; }
@@ -393,7 +408,6 @@ nav.is-open {
         justify-content: center; }
       .eco .eco__plant {
         flex-direction: column; } }
-
 .footer {
   height: 9.95vh;
   width: 100vw;
@@ -408,6 +422,7 @@ nav.is-open {
     justify-content: center;
     color: #FFFFFF;
     margin-left: 16px; }
+
   .footer .icons__footer {
     justify-content: center;
     font-size: 10px;
@@ -421,8 +436,10 @@ nav.is-open {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
     color: #FFFFFF;
     margin-right: 16px; }
+
 
 
 /*# sourceMappingURL=/style.97fcb138.css.map */
