@@ -1,5 +1,32 @@
-  @media (min-width:750px){
+@media (min-width:750px){
   // vestes
+  nav {
+      top: 0;
+      left: 0;
+      border-radius: 0;
+      width: 100%;
+    .open {
+      display: none;
+    }
+    
+    .lis {
+      position: static;
+      opacity: 1;
+      transform: none;
+      height: 100%;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    
+    .burger__li {
+      font-size: 40px;
+      
+    }
+    
+    .burger__li:not(:last-child) {
+      margin-bottom: 0;
+    }
+  }
   .jackets {
     display: flex;
     flex-direction: row;

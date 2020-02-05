@@ -4,54 +4,151 @@ $primarycolor: #36BDCB;
   $fourthcolor: #FFD9C9;
   $fifthcolor: #FFFFC4;
   $footercolor: #677577;
+//keyframes
 nav {
-    background-color: greenyellow;
-    position:fixed;
-    bottom:15px;
-    left:15px;
-    width: 30px;
-    height: 30px;
-    overflow:hidden;
-    transition:height 0.5s, width 0.5s, left 0.5s, bottom 0.5s;
-    ul.lis {
-        .burger__li {
-            opacity: 0;
-        }
-    }
-    
-    }
- 
- nav.is-open {
-     background-color:brown;
-     position:fixed;
-     bottom: 0;
-     left:0;
-     z-index: 1;
-     width: 100%;
-     height: 100%;
-     opacity: 0.5;
-     ul.lis{
-         position:fixed;
-         display:flex;
-         flex-direction:column;
-         justify-content:center;
-         align-items:center;
-         height: 100vh;
-         width: 100vw;
-         margin-bottom:20%;
-       
-       .burger__li {
-           
-           opacity:1;
-         font-size: 40px;
-         margin: -100px;
-         
-       }
-       .burger__li:not(:last-child) {
-         margin-bottom:0;
- }
-     }
- }
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: height 0.5s, width 0.5s, left 0.5s, bottom 0.5s, border-radius 0.3s;
+  z-index:1;
+
+}
+
+nav.is-open {
+  height: 100vh;
+  width: 100vw;
+  border-radius: 0;
+  left: 0;
+  bottom: 0;
+  background-color:$fourthcolor;
+  opacity:0.5;
+}
+
+.open {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.open-icon {
+  transition: background-color 0.3s;
+}
+
+.open-icon,
+.open-icon::before,
+.open-icon::after {
+  width: 30px;
+  height: 4px;
+  background: black;
+}
+
+.open-icon::before,
+.open-icon::after {
+  content: '';
+  display: block;
+  transition: transform 0.3s;
+}
+
+.open-icon::before {
+  transform: translateY(-8px);
+}
+
+.open-icon::after {
+  transform: translateY(4px);
+}
+
+nav.is-open .open-icon {
+  background-color: transparent;
+}
+
+nav.is-open .open-icon::before {
+  transform: translateY(2px) rotate(45deg);
+}
+
+nav.is-open .open-icon::after {
+  transform: translateY(-2px) rotate(-45deg);
+}
+
+.lis {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom:30px;
+  height: 100vh;
+  width: 100vw;
+  transform: translate(calc(-50vw + 40px), calc(50vh - 40px)) scale(0);
+  opacity: 0;
+  transition: transform 0.5s, opacity 0.3s;
+}
+
+nav.is-open .lis {
+  transform: none;
+  opacity: 1;
+}
+
+nav:not(.is-open) .lis {
+  pointer-events: none;
+}
+
+li {
+  font-size: 60px;
+  text-transform: uppercase;
+  font-family: Helvetica;
+}
+
+li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+@media (min-width: px) {
+  nav {
+    top: 0;
+    left: 0;
+    border-radius: 0;
+    width: 100%;
+  }
+  
+  nav.is-open {
+    height: 50px;
+    background-color: $primarycolor;
+  }
+  
+  .open {
+    display: none;
+  }
+  
+  ul {
+    position: static;
+    opacity: 1;
+    transform: none;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  li {
+    font-size: 40px;
+  }
+  
+  li:not(:last-child) {
+    margin-bottom: 0;
+  }
+}
  .banner {
     background-color: $primarycolor;
     width: 100vw;
@@ -199,29 +296,7 @@ nav {
         display: block;
         margin: auto;
         box-shadow: 4px 4px 0px $thirdcolor;
-    }
-    
-    @media (min-width:750px) {
-      background-color: white;
-      font-size: 48px;
-      padding-top: 24px;
-      height: 72vh;
-      .button__fans{
-        height: 8.38vh;
-        width: 32vw;
-        font-size: 24px;
-        border-radius: 20.5px;
-        margin-top: 24px;
-        margin-bottom: 24px;
-      }
-      .fans__img{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 15px;
-        grid-template-rows: 1fr 1fr;
-      }
-      }   
-    
+    }    
    }
    
    .star1{
