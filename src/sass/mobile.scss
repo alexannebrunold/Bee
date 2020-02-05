@@ -294,11 +294,36 @@ nav {
       color: #FFFFFF;
       margin-right: 16px;
     }
-    //Desktop
-@media (min-width:750px) {
-  width: 100vw;
-
-  padding-top: 24px;
-  .eco__title{
-    font-size: 48px;
-  }}}
+   }
+   .footer{
+    height: 9.95vh;
+    width: 100vw;
+    background-color: $footercolor;
+    display: flex;
+    flex-direction: row;
+    .text__footer{
+      font-size: 10px;
+      width:24vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: #FFFFFF;
+      margin-left: 16px;
+    }
+    .icons__footer{
+      justify-content: center;
+      font-size: 10px;
+      width:52vw;
+      margin-top: 3vh;
+      color: #FFFFFF;
+    }
+    .text__footer1{
+      width: 24vw;
+      font-size: 10px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;    
+      color: #FFFFFF;
+      margin-right: 16px;
+    }}

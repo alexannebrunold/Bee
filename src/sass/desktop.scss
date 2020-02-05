@@ -1,48 +1,5 @@
-@font-face{
-    font-family: "Baloo";
-    src: url("../src/assets/fonts/baloo/baloo-v5-latin-regular.woff") format("woff");
-    src: url("../src/assets/fonts/baloo/baloo-v5-latin-regular.woff2") format("woff2");
-  }
-  @font-face{
-    font-family: "Montserrat Light";
-    src: url("../src/assets/fonts/montserrat/Montserrat-Light.woff") format("woff");
-    src: url("../src/assets/fonts/montserrat/Montserrat-Light.woff2") format("woff2");
-  }
-  @font-face{
-    font-family: "Montserrat Medium";
-    src: url("../src/assets/fonts/montserrat/Montserrat-Medium.woff") format("woff");
-    src: url("../src/assets/fonts/montserrat/Montserrat-Medium.woff2") format("woff2");
-  }
-  @font-face{
-    font-family: "Montserrat Regular";
-    src: url("../src/assets/fonts/montserrat/Montserrat-Regular.woff") format("woff");
-    src: url("../src/assets/fonts/montserrat/Montserrat-Regular.woff2") format("woff2");
-  }
-  @font-face{
-    font-family: "Montserrat Semi-Bold";
-    src: url("../src/assets/fonts/montserrat/Montserrat-SemiBold.woff") format("woff");
-    src: url("../src/assets/fonts/montserrat/Montserrat-SemiBold.woff2") format("woff2");
-  }
-   
-  body{
-   margin: 0;
-   padding:0;
-  
-  $primarycolor: #36BDCB;
-  $secondarycolor: #D9F7FA;
-  $thirdcolor:  #F6D6FC;
-  $fourthcolor: #FFD9C9;
-  $fifthcolor: #FFFFC4;
-  $footercolor: #677577;
-.header {
-    background-color:$primarycolor;
-    display:flex;
-    justify-content: space-around;
-    align-items: baseline;
- 
- }
-
-// vestes
+  @media (min-width:750px){
+  // vestes
   .jackets {
     display: flex;
     flex-direction: row;
@@ -70,48 +27,33 @@
         height: 45vh;
         transform: rotate(36deg);
 
+    }
   }
-}
-// @media (min-width:750px) {
-//     width: 100vw;
-//     margin: 0;
-//     padding: 0;
-//     padding-top: 24px;
-//     .eco__title{
-//       font-size: 48px;
-//     }
-//     .yo{
-//       display: flex;
-//       flex-direction: column;
-//       justify-content: center;
-//       }
-//       .eco__plant{
-//         flex-direction: column;
-//       }
-//    }
-//    }
-
-   // Choisir le modèle
-   @media (min-width:750px) {
-      .choose__title{
-        font-size: 48px;
+    .eco__title{
+      font-size: 48px;
+    }
+    .yo{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       }
-      .choose__sections{
+      .eco__plant{
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
       }
-      .button__choose{
-        width: 18vw;
-        height: 7.5vh;
-        text-align: center;
-        // margin-left: 55px;
-        font-size: 24px;
-        justify-self: center;
+      .eco__shop{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        align-items: center;
       }
-      // .choose__blue{
-      //   padding-right: 160px;
-      // }
-      .choose__price{
-        font-size: 18px;
+      .eco__earth{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
       }
-    }}
+    }
