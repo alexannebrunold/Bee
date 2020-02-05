@@ -1,3 +1,4 @@
+
   @media (min-width:750px){
   // vestes
   .jackets {
@@ -12,20 +13,24 @@
     width: auto;
     height: 100vh;
     .left__jacket {
+
         position: relative;
         bottom: 25vh;
         right: 13%;
         width: auto;
         height: 43vh;
         transform: rotate(-25.79deg);
-    }
-    .right__jacket {
+
+      }
+      .right__jacket {
+
         position: relative;
         width: auto;
         bottom: 19vh;
         right: 24%;
         height: 45vh;
         transform: rotate(36deg);
+
 
     }
   }
@@ -57,3 +62,4 @@
         align-items: center;
       }
     }
+

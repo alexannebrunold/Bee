@@ -266,7 +266,8 @@ nav.is-open {
   .choose .choose__price {
     color: black;
     font-size: 18px; }
-  @media (min-width: 750px) {
+  @media (min-width: 750px) {72vh;
+
     .choose {
       font-family: "Montserrat"; }
       .choose .choose__title {
@@ -291,8 +292,10 @@ nav.is-open {
   text-align: center;
   padding-top: 16px;
   font-size: 24px; }
+
   .fans .fans__title {
     font-family: "Baloo"; }
+
   .fans .fans__img {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -313,10 +316,12 @@ nav.is-open {
     box-shadow: 4px 4px 0px #F6D6FC; }
   @media (min-width: 750px) {
     .fans {
+
       background-color: white;
       font-size: 48px;
       padding-top: 24px;
       height: 72vh; }
+
       .fans .button__fans {
         height: 8.38vh;
         width: 32vw;
@@ -363,13 +368,17 @@ nav.is-open {
   justify-self: center; }
 
 .eco {
+
+  background-color: #FFFFC4;
   height: auto;
   width: 100vw;
   padding: 16px 0px; }
+
   .eco .eco__title {
     color: #36BDCB;
     text-align: center;
     font-size: 24px;
+
     font-family: "Baloo";
     margin-top: 8px;
     margin-bottom: 16px; }
@@ -396,6 +405,7 @@ nav.is-open {
   flex-direction: row;
   font-family: "Monsterrat Regular";
   font-size: 8px; }
+
   .footer .text__footer {
     font-size: 10px;
     width: 24vw;
@@ -405,11 +415,13 @@ nav.is-open {
     color: #FFFFFF;
     margin-left: 16px; }
   .footer .icons__footer {
+
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     font-size: 10px;
     width: 52vw;
+
     color: #FFFFFF; }
   .footer .text__footer1 {
     width: 24vw;
@@ -420,6 +432,7 @@ nav.is-open {
     justify-content: center;
     color: #FFFFFF;
     margin-right: 16px; }
+
 
 @media (min-width: 750px) {
   .jackets {
@@ -469,6 +482,7 @@ nav.is-open {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center; } }
+
 
 
 /*# sourceMappingURL=/style.css.map */

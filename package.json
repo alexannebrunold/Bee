@@ -6,7 +6,6 @@
 
     "dev": "parcel Bee/src/index.html src/*",
     "build": "parcel build Bee/src/index.html src/*"
-
   },
   "keywords": [],
   "author": "",

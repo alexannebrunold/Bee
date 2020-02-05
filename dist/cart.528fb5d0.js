@@ -184,14 +184,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"style.scss":[function(require,module,exports) {
+},{"./bundle-url":"../node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"sass/cart.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-
-},{"./assets/fonts/baloo/baloo-v5-latin-regular.woff":[["baloo-v5-latin-regular.c585f5c1.woff","assets/fonts/baloo/baloo-v5-latin-regular.woff"],"assets/fonts/baloo/baloo-v5-latin-regular.woff"],"./assets/fonts/baloo/baloo-v5-latin-regular.woff2":[["baloo-v5-latin-regular.674b78d6.woff2","assets/fonts/baloo/baloo-v5-latin-regular.woff2"],"assets/fonts/baloo/baloo-v5-latin-regular.woff2"],"./assets/fonts/montserrat/Montserrat-Light.woff":[["Montserrat-Light.9fccc3f4.woff","assets/fonts/montserrat/Montserrat-Light.woff"],"assets/fonts/montserrat/Montserrat-Light.woff"],"./assets/fonts/montserrat/Montserrat-Light.woff2":[["Montserrat-Light.289b041d.woff2","assets/fonts/montserrat/Montserrat-Light.woff2"],"assets/fonts/montserrat/Montserrat-Light.woff2"],"./assets/fonts/montserrat/Montserrat-Medium.woff":[["Montserrat-Medium.0effd27d.woff","assets/fonts/montserrat/Montserrat-Medium.woff"],"assets/fonts/montserrat/Montserrat-Medium.woff"],"./assets/fonts/montserrat/Montserrat-Medium.woff2":[["Montserrat-Medium.357bc1d6.woff2","assets/fonts/montserrat/Montserrat-Medium.woff2"],"assets/fonts/montserrat/Montserrat-Medium.woff2"],"./assets/fonts/montserrat/Montserrat-Regular.woff":[["Montserrat-Regular.c7ae4452.woff","assets/fonts/montserrat/Montserrat-Regular.woff"],"assets/fonts/montserrat/Montserrat-Regular.woff"],"./assets/fonts/montserrat/Montserrat-Regular.woff2":[["Montserrat-Regular.bbfce8f0.woff2","assets/fonts/montserrat/Montserrat-Regular.woff2"],"assets/fonts/montserrat/Montserrat-Regular.woff2"],"./assets/fonts/montserrat/Montserrat-SemiBold.woff":[["Montserrat-SemiBold.2c3100ec.woff","assets/fonts/montserrat/Montserrat-SemiBold.woff"],"assets/fonts/montserrat/Montserrat-SemiBold.woff"],"./assets/fonts/montserrat/Montserrat-SemiBold.woff2":[["Montserrat-SemiBold.2960d270.woff2","assets/fonts/montserrat/Montserrat-SemiBold.woff2"],"assets/fonts/montserrat/Montserrat-SemiBold.woff2"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
-
+},{"./../src/assets/fonts/baloo/baloo-v5-latin-regular.woff":[["baloo-v5-latin-regular.54891e44.woff","src/assets/fonts/baloo/baloo-v5-latin-regular.woff"],"src/assets/fonts/baloo/baloo-v5-latin-regular.woff"],"./../src/assets/fonts/baloo/baloo-v5-latin-regular.woff2":[["baloo-v5-latin-regular.79e39db7.woff2","src/assets/fonts/baloo/baloo-v5-latin-regular.woff2"],"src/assets/fonts/baloo/baloo-v5-latin-regular.woff2"],"./../src/assets/fonts/montserrat/Montserrat-Light.woff":[["Montserrat-Light.56e2b3ee.woff","src/assets/fonts/montserrat/Montserrat-Light.woff"],"src/assets/fonts/montserrat/Montserrat-Light.woff"],"./../src/assets/fonts/montserrat/Montserrat-Light.woff2":[["Montserrat-Light.ffe1b376.woff2","src/assets/fonts/montserrat/Montserrat-Light.woff2"],"src/assets/fonts/montserrat/Montserrat-Light.woff2"],"./../src/assets/fonts/montserrat/Montserrat-Medium.woff":[["Montserrat-Medium.f5ed45c3.woff","src/assets/fonts/montserrat/Montserrat-Medium.woff"],"src/assets/fonts/montserrat/Montserrat-Medium.woff"],"./../src/assets/fonts/montserrat/Montserrat-Medium.woff2":[["Montserrat-Medium.a77d1af5.woff2","src/assets/fonts/montserrat/Montserrat-Medium.woff2"],"src/assets/fonts/montserrat/Montserrat-Medium.woff2"],"./../src/assets/fonts/montserrat/Montserrat-Regular.woff":[["Montserrat-Regular.5107388a.woff","src/assets/fonts/montserrat/Montserrat-Regular.woff"],"src/assets/fonts/montserrat/Montserrat-Regular.woff"],"./../src/assets/fonts/montserrat/Montserrat-Regular.woff2":[["Montserrat-Regular.faf66d49.woff2","src/assets/fonts/montserrat/Montserrat-Regular.woff2"],"src/assets/fonts/montserrat/Montserrat-Regular.woff2"],"./../src/assets/fonts/montserrat/Montserrat-SemiBold.woff":[["Montserrat-SemiBold.53225dd8.woff","src/assets/fonts/montserrat/Montserrat-SemiBold.woff"],"src/assets/fonts/montserrat/Montserrat-SemiBold.woff"],"./../src/assets/fonts/montserrat/Montserrat-SemiBold.woff2":[["Montserrat-SemiBold.487d56c3.woff2","src/assets/fonts/montserrat/Montserrat-SemiBold.woff2"],"src/assets/fonts/montserrat/Montserrat-SemiBold.woff2"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -219,9 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50903" + '/');
-
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50493" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -398,4 +394,4 @@ function hmrAcceptRun(bundle, id) {
   }
 }
 },{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
-//# sourceMappingURL=/style.js.map
+//# sourceMappingURL=/cart.528fb5d0.js.map
