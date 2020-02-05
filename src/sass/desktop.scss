@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> b64250927309c73bfaaae49db1010823e12fb34d
 @media (min-width:750px){
   // vestes
   nav {
@@ -36,6 +40,11 @@ line-height: 22px;
       margin-bottom: 0;
     }
   }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> b64250927309c73bfaaae49db1010823e12fb34d
   .jackets {
     display: flex;
     flex-direction: row;
@@ -48,14 +57,15 @@ line-height: 22px;
     width: auto;
     height: 100vh;
     .left__jacket {
+
         position: relative;
         bottom: 25vh;
         right: 13%;
         width: auto;
         height: 43vh;
         transform: rotate(-25.79deg);
-    }
-    .right__jacket {
+      }
+      .right__jacket {
         position: relative;
         width: auto;
         bottom: 19vh;
@@ -64,7 +74,31 @@ line-height: 22px;
         transform: rotate(36deg);
 
     }
-  }
+  
+  background-color: white;
+      font-size: 48px;
+      padding-top: 24px;
+      height: 72vh;
+
+      .button__fans{
+        height: 8.38vh;
+        width: 32vw;
+        font-size: 24px;
+        border-radius: 20.5px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+      }
+      .fans__img{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+        grid-template-rows: 1fr 1fr;
+      }
+      }   
+
+      .eco{
+        background-color: white;
+      }
     .eco__title{
       font-size: 48px;
     }
@@ -93,3 +127,7 @@ line-height: 22px;
         align-items: center;
       }
     }
+
+    
+
+    
