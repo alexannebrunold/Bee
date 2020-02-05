@@ -4,26 +4,34 @@
   position:fixed;
   top:0;
   left:0;
+  z-index:1;
+  display:flex;
+  nav {
+     width: 100vw;
+     background-color: $primarycolor;
+  }
+    .lis {
+      position: absolute;
+      opacity: 1;
+      transform: none;
+      height: 30%;
+      flex-direction: row;
+      justify-content: start;
+      left:0;
+    }
   .header__logo{
-    position: sticky;
+    position: fixed;
     left: 46%;
     z-index: 1;
     opacity:0.5;
-    background-color:black;
   }
-  .lis {
-      position: static;
-      opacity: 1;
-      transform: none;
-      height: 100%;
-      flex-direction: column;
-      justify-content: space-around;
-    }
-  
+  .burger__li {
+    top: 15px;
+    margin:30px;
+    margin-left: 40px;
+    font-size: 20px;
 
-    .burger__li:not(:last-child) {
-      margin-bottom: 0;
-    }
+  } 
 }
 .banner {
   background-color: #36BDCB;
@@ -42,6 +50,9 @@
     font-size: 60px;
           
       }
+  .button__choose {
+    
+  }    
   .rainbow {
     position: relative;
     bottom: 20vh;
