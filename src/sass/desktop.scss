@@ -6,6 +6,7 @@
       left: 0;
       border-radius: 0;
       width: 100%;
+  }
     .open {
       display: none;
     }
@@ -36,7 +37,7 @@ line-height: 22px;
     .burger__li:not(:last-child) {
       margin-bottom: 0;
     }
-  }
+  
 
 
   .jackets {
@@ -50,6 +51,7 @@ line-height: 22px;
     right: -64vw;
     width: auto;
     height: 100vh;
+  }
     .left__jacket {
 
         position: relative;
@@ -68,60 +70,35 @@ line-height: 22px;
         transform: rotate(36deg);
 
     }
-  
-  background-color: white;
+    //Choose
+    .choose {
+      // background-color: $thirdcolor;
+      color: $primarycolor;
+      text-align: center;
+      margin-top: 52vh;
+      padding-top: 16px;
+      padding-bottom: 15px;
+    .choose__title{
       font-size: 48px;
-      padding-top: 24px;
-      height: 72vh;
-
-      .button__fans{
-        height: 8.38vh;
-        width: 32vw;
-        font-size: 24px;
-        border-radius: 20.5px;
-        margin-top: 24px;
-        margin-bottom: 24px;
-      }
-      .fans__img{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 15px;
-        grid-template-rows: 1fr 1fr;
-      }
-      }   
-
-      .eco{
-        background-color: white;
-      }
-    .eco__title{
-      font-size: 48px;
+      font-family: "Baloo";
     }
-    .yo{
+    .choose__sections{
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       justify-content: center;
-      align-items: center;
-      }
-      .eco__plant{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-      }
-      .eco__shop{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-evenly;
-        align-items: center;
-      }
-      .eco__earth{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-      }
     }
-
-    
-
-    
+    .button__choose{
+      width: 80%;
+      height: 6vh;
+      text-align: center;
+      font-size: 24px;
+    }
+    .choose__blue{
+      padding-right: 160px;
+    }
+    .choose__price{
+      font-size: 18px;
+      font-family: "Montserrat Light";
+    }
+    }
+  }

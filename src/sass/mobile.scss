@@ -117,7 +117,7 @@ li:not(:last-child) {
   margin-bottom: 20px;
 }
 
-@media (min-width: px) {
+// @media (min-width: px) {
   nav {
     top: 0;
     left: 0;
@@ -150,7 +150,7 @@ li:not(:last-child) {
   li:not(:last-child) {
     margin-bottom: 0;
   }
-}
+// }
 
 
  .banner {
@@ -223,6 +223,10 @@ li:not(:last-child) {
   padding-top: 16px;
   padding-bottom: 15px;
   font-size: 24px;
+  .choose__title{
+    font-size: 24px;
+    font-family: "Baloo";
+  }
   .button__choose {
     background-color: $primarycolor;
     border: none;
@@ -239,14 +243,6 @@ li:not(:last-child) {
     margin-bottom: 16px;
     box-shadow: 4px 4px 0px $thirdcolor;
   }
-  .choose__sections {
-    font-size: 18px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 24px;
-  }
   .blue__jacket,
   .dark__jacket {
     height: 46vh;
@@ -257,34 +253,6 @@ li:not(:last-child) {
     color: black;
     font-size: 18px;
   }
-
-  @media (min-width: 750px) {
-    .choose__title {
-      font-size: 48px;
-    }
-    .choose__sections {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      justify-self: center;
-    }
-    .button__choose {
-      width: 18vw;
-      height: 7.5vh;
-      text-align: center;
-      // margin-left: 55px;
-      font-size: 24px;
-      justify-self: center;
-    }
-    .choose__blue {
-      padding-right: 160px;
-    }
-    .choose__price {
-      font-size: 18px;
-    }
-  }
-}
 
 // Fans
 .fans {
@@ -316,83 +284,83 @@ li:not(:last-child) {
     box-shadow: 4px 4px 0px $thirdcolor;
   }
 
-  @media (min-width: 750px) {
-    font-size: 48px;
-    padding-top: 24px;
-    .button__fans {
-      height: 8.38vh;
-      width: 32vw;
-      font-size: 24px;
+  // @media (min-width: 750px) {
+  //   font-size: 48px;
+  //   padding-top: 24px;
+  //   .button__fans {
+  //     height: 8.38vh;
+  //     width: 32vw;
+  //     font-size: 24px;
 
-      font-family: "Baloo";
-      .button__choose{
-        background-color: $primarycolor;
-        border: none;
-        color: #FFFFFF;
-        height: 6vh;
-        width: 48vw;
-        font-size: 14px;
-        border-radius: 20.5px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        display: block;
-        margin: auto;
-        text-align: center;
-        margin-bottom: 16px;
-        box-shadow: 4px 4px 0px $thirdcolor;
-      }
-      .choose__sections{
-        font-size: 18px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 24px;
-      }
-      .blue__jacket, .dark__jacket{
-        height: 46vh;
-        width: auto;
-        padding-top: 16px;
-      }
-      .choose__price{
-        color: black;
-        font-size: 18px;
-      }
+  //     font-family: "Baloo";
+  //     .button__choose{
+  //       background-color: $primarycolor;
+  //       border: none;
+  //       color: #FFFFFF;
+  //       height: 6vh;
+  //       width: 48vw;
+  //       font-size: 14px;
+  //       border-radius: 20.5px;
+  //       margin-top: 10px;
+  //       margin-bottom: 10px;
+  //       display: block;
+  //       margin: auto;
+  //       text-align: center;
+  //       margin-bottom: 16px;
+  //       box-shadow: 4px 4px 0px $thirdcolor;
+  //     }
+  //     .choose__sections{
+  //       font-size: 18px;
+  //       display: flex;
+  //       flex-direction: column;
+  //       justify-content: center;
+  //       align-items: center;
+  //       margin-top: 24px;
+  //     }
+  //     .blue__jacket, .dark__jacket{
+  //       height: 46vh;
+  //       width: auto;
+  //       padding-top: 16px;
+  //     }
+  //     .choose__price{
+  //       color: black;
+  //       font-size: 18px;
+  //     }
 
 
-      //Desktop
-      @media (min-width:750px) {
-        font-family: "Montserrat";
-        .choose__title{
-          font-size: 48px;
-          font-family: "Baloo";
-        }
-        .choose__sections{
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          align-items: center;
-          justify-self: center;
-        }
-        .choose__blue{
-          padding-right: 160px;
-        }
-        .choose__price{
-          font-size: 18px;
+      // //Desktop
+      // @media (min-width:750px) {
+      //   font-family: "Montserrat";
+      //   .choose__title{
+      //     font-size: 48px;
+      //     font-family: "Baloo";
+      //   }
+      //   .choose__sections{
+      //     display: flex;
+      //     flex-direction: row;
+      //     justify-content: center;
+      //     align-items: center;
+      //     justify-self: center;
+      //   }
+      //   .choose__blue{
+      //     padding-right: 160px;
+      //   }
+      //   .choose__price{
+      //     font-size: 18px;
 
-          justify-content: space-evenly;
-        }
-        .button__choose{
-          width: 36vw;
-          height: 7.5vh;
-          text-align: center;
-          font-size: 24px;
-        }
+      //     justify-content: space-evenly;
+      //   }
+      //   .button__choose{
+      //     width: 36vw;
+      //     height: 7.5vh;
+      //     text-align: center;
+      //     font-size: 24px;
+      //   }
 
-        .choose__price{
-          font-size: 18px;
-          font-family: "Montserrat Light";
-        }
+      //   .choose__price{
+      //     font-size: 18px;
+      //     font-family: "Montserrat Light";
+      //   }
       
    
    
@@ -423,43 +391,21 @@ li:not(:last-child) {
 
       padding-top: 32px;
     }
-    .button__fans{
-      background-color: $primarycolor;
-        border: none;
-        color: #FFFFFF;
-        height: 5vh;
-        width: 48vw;
-        font-size: 10px;
-        border-radius: 20.5px;
-        margin-top: 50px;
-        display: block;
-        margin: auto;
-        box-shadow: 4px 4px 0px $thirdcolor;
+    // .button__fans{
+    //   background-color: $primarycolor;
+    //     border: none;
+    //     color: #FFFFFF;
+    //     height: 5vh;
+    //     width: 48vw;
+    //     font-size: 10px;
+    //     border-radius: 20.5px;
+    //     margin-top: 50px;
+    //     display: block;
+    //     margin: auto;
+    //     box-shadow: 4px 4px 0px $thirdcolor;
 
-    }
-    
-    @media (min-width:750px) {
-      background-color: white;
-      font-size: 48px;
-      padding-top: 24px;
-      height: 72vh;
-      .button__fans{
-        height: 8.38vh;
-        width: 32vw;
-        font-size: 24px;
-        border-radius: 20.5px;
-        margin-top: 24px;
-        margin-bottom: 24px;
-      }
-      .fans__img{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 15px;
-        grid-template-rows: 1fr 1fr;
-      }
-      }   
-    
-   }
+    // }
+  
    
 
    .star1{
@@ -529,7 +475,7 @@ li:not(:last-child) {
    .eco__plant img, .eco__shop img, .eco__earth img{
      margin-bottom: 24px;
    }
-  }
+  
 
 
    // Footer
@@ -582,10 +528,9 @@ li:not(:last-child) {
       object-fit: scale-down;
       justify-content: center;
      align-items: center;
-    }}}}
-
     }
-  }
+
+  
 
 
 .star1 {
@@ -783,4 +728,8 @@ li:not(:last-child) {
   justify-content: center;
   align-items: center;
 }
-
+   }
+  }
+}
+}
+}
