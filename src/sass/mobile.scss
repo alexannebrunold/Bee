@@ -5,7 +5,6 @@ $primarycolor: #36BDCB;
   $fourthcolor: #FFD9C9;
   $fifthcolor: #FFFFC4;
   $footercolor: #677577;
-
 //keyframes
 nav {
   position: fixed;
@@ -117,7 +116,6 @@ li:not(:last-child) {
   margin-bottom: 20px;
 }
 
-// @media (min-width: px) {
   nav {
     top: 0;
     left: 0;
@@ -150,15 +148,6 @@ li:not(:last-child) {
   li:not(:last-child) {
     margin-bottom: 0;
   }
-// }
-
-
- .banner {
-    background-color: $primarycolor;
-
-    width: 100vw;
-    margin-bottom: 20%;
-
     .burger__li {
       opacity: 1;
       font-size: 40px;
@@ -167,7 +156,6 @@ li:not(:last-child) {
     .burger__li:not(:last-child) {
       margin-bottom: 0;
     }
-  }
 
 .banner {
   background-color: $primarycolor;
