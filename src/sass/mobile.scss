@@ -308,6 +308,7 @@ nav {
     }
    }
 
+
    //Page Custom, Bottom Part
   
   .personalisation__title{
@@ -371,3 +372,28 @@ nav {
     display: block;
     box-shadow: 4px 4px 0px $thirdcolor;
    }
+
+   // Custom Up
+
+   .header__custom {
+     width:100vw;
+     height:55px;
+     background-color: $primarycolor;
+     color:#FFFFFF;
+     display: flex;
+   }
+
+   .lis__custom {
+     justify-content: space-around;
+   }
+
+   .jacket__view {
+     display:flex;
+     background-color: $thirdcolor;
+     height:312px;
+     width:288px;
+     margin-top:24px;
+     justify-content:center;
+     align-items:center;
+   }
+
