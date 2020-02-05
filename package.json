@@ -3,7 +3,6 @@
   "description": "Louis Fleury Melvyn Dadure Alexanne Brunold Romain Danizel Pierre-Alexis Maerten",
   "main": "index.js",
   "scripts": {
-
     "dev": "parcel Bee/src/index.html src/*",
     "build": "parcel build Bee/src/index.html src/*"
   },
