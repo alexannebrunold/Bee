@@ -72,24 +72,24 @@
 
   }
 }
-@media (min-width:750px) {
-    width: 100vw;
-    margin: 0;
-    padding: 0;
-    padding-top: 24px;
-    .eco__title{
-      font-size: 48px;
-    }
-    .yo{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      }
-      .eco__plant{
-        flex-direction: column;
-      }
-   }
-   }
+// @media (min-width:750px) {
+//     width: 100vw;
+//     margin: 0;
+//     padding: 0;
+//     padding-top: 24px;
+//     .eco__title{
+//       font-size: 48px;
+//     }
+//     .yo{
+//       display: flex;
+//       flex-direction: column;
+//       justify-content: center;
+//       }
+//       .eco__plant{
+//         flex-direction: column;
+//       }
+//    }
+//    }
 
    // Choisir le modèle
    @media (min-width:750px) {
@@ -114,6 +114,4 @@
       .choose__price{
         font-size: 18px;
       }
-    }
-
-
+    }}

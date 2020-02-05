@@ -127,76 +127,122 @@ nav.is-open {
     display: block;
     margin: auto;
     box-shadow: 4px 4px 0px #F6D6FC; }
-  .fans .star1 {
-    height: 17.85vh;
-    width: auto;
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-    align-self: center;
-    justify-self: center; }
-  .fans .star2 {
-    height: 17.85vh;
-    width: auto;
-    grid-column: 2 / 2;
-    grid-row: minmax 100px, auto;
-    align-self: center;
-    justify-self: center; }
-  .fans .star3 {
-    height: 17.85vh;
-    width: auto;
-    grid-column: 1 / 2;
-    grid-row: 2 / 2;
-    align-self: center;
-    justify-self: center; }
-  .fans .star4 {
-    height: 17.85vh;
-    width: auto;
-    grid-column: 2 / 2;
-    grid-row: 2 / 2;
-    align-self: center;
-    justify-self: center; }
-  .fans .eco {
-    background-color: #FFFFC4;
-    height: auto;
-    width: 100vw;
-    padding: 16px 0px; }
-    .fans .eco .eco__title {
+
+.star1 {
+  height: 17.85vh;
+  width: auto;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  align-self: center;
+  justify-self: center; }
+
+.star2 {
+  height: 17.85vh;
+  width: auto;
+  grid-column: 2 / 2;
+  grid-row: minmax 100px, auto;
+  align-self: center;
+  justify-self: center; }
+
+.star3 {
+  height: 17.85vh;
+  width: auto;
+  grid-column: 1 / 2;
+  grid-row: 2 / 2;
+  align-self: center;
+  justify-self: center; }
+
+.star4 {
+  height: 17.85vh;
+  width: auto;
+  grid-column: 2 / 2;
+  grid-row: 2 / 2;
+  align-self: center;
+  justify-self: center; }
+
+.eco {
+  background-color: #FFFFC4;
+  height: auto;
+  width: 100vw;
+  padding: 16px 0px; }
+  .eco .eco__sections {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 24px; }
+    .eco .eco__sections .eco__title {
       color: #36BDCB;
       text-align: center;
-      font-size: 24px; }
-    .fans .eco .eco__sections {
-      font-size: 14px;
+      font-size: 24px;
+      font-family: "Baloo"; }
+    .eco .eco__sections .eco__text {
+      width: 80vw;
+      margin: 16px 16px 0px 16px;
+      padding: 0px 16px 0px 16px;
       text-align: center;
-      margin-top: 24px; }
-    .fans .eco .footer {
-      height: 9.95vh;
-      width: 100vw;
-      background-color: #677577;
+      font-size: 14px;
+      font-family: "Montserrat Mixed"; }
+    .eco .eco__sections .yo {
       display: flex;
-      flex-direction: row; }
-      .fans .eco .footer .text__footer {
-        font-size: 10px;
-        width: 24vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        color: #FFFFFF;
-        margin-left: 16px; }
-      .fans .eco .footer .icons__footer {
-        justify-content: center;
-        font-size: 10px;
-        width: 52vw;
-        margin-top: 3vh;
-        color: #FFFFFF; }
-      .fans .eco .footer .text__footer1 {
-        width: 24vw;
-        font-size: 10px;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        color: #FFFFFF;
-        margin-right: 16px; }
+      flex-direction: column;
+      justify-content: center;
+      align-content: center; }
+    .eco .eco__sections .eco__plant, .eco .eco__sections .eco__shop, .eco .eco__sections .eco__earth {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+
+@media (min-width: 750px) {
+  .yo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .eco__plant {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; }
+  .eco__shop {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center; }
+  .eco__earth {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; } }
+
+.footer {
+  height: 9.95vh;
+  width: 100vw;
+  background-color: #677577;
+  display: flex;
+  flex-direction: row; }
+  .footer .text__footer {
+    font-size: 10px;
+    width: 24vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-left: 16px; }
+  .footer .icons__footer {
+    justify-content: center;
+    font-size: 10px;
+    width: 52vw;
+    margin-top: 3vh;
+    color: #FFFFFF; }
+  .footer .text__footer1 {
+    width: 24vw;
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-right: 16px; }
 
 html,
 body,
@@ -532,27 +578,6 @@ nav.is-open {
   align-self: center;
   justify-self: center; }
 
-.eco {
-  background-color: #FFFFC4;
-  height: auto;
-  width: 100vw; }
-  .eco .eco__title {
-    color: #36BDCB;
-    text-align: center;
-    font-size: 24px;
-    font-family: "Baloo"; }
-  .eco .eco__sections {
-    font-size: 14px;
-    text-align: center;
-    margin-top: 24px; }
-  .eco .eco__text {
-    width: 80vw;
-    margin: 16px 16px 0px 16px;
-    padding: 0px 16px 0px 16px;
-    text-align: center;
-    font-size: 14px;
-    font-family: "Montserrat Mixed"; }
-
 .footer {
   height: 9.95vh;
   width: 100vw;
@@ -587,28 +612,7 @@ nav.is-open {
       width: 100vw;
       padding-top: 24px; }
       .footer .eco__title {
-        font-size: 48px; }
-      .footer .yo {
-        display: flex;
-        justify-content: center;
-        align-items: center; }
-      .footer .eco__plant {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-        width: 70%; }
-      .footer .eco__shop {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-evenly;
-        align-items: center;
-        width: 70%; }
-      .footer .eco__earth {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        width: 70%; } }
+        font-size: 48px; } }
 
 
 /*# sourceMappingURL=/style.css.map */

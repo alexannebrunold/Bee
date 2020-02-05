@@ -222,6 +222,7 @@ nav.is-open {
      margin: auto;
      box-shadow: 4px 4px 0px $thirdcolor;
  }
+}
  //Desktop
 //  @media (min-width:750px) {
 //    font-size: 48px;
@@ -287,20 +288,64 @@ nav.is-open {
  height: auto;
  width: 100vw;
  padding: 16px 0px;
- 
-
-.eco__title{
- color: $primarycolor;
- text-align: center;
- font-size: 24px;
- 
-}
 .eco__sections{
  font-size: 14px;
  text-align: center;
  margin-top: 24px;
-
+ .eco__title{
+  color: $primarycolor;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Baloo";
+ }
+.eco__text{
+  width: 80vw;
+  margin: 16px 16px 0px 16px;
+  padding: 0px 16px 0px 16px;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Montserrat Mixed";
 }
+.yo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.eco__plant, .eco__shop, .eco__earth{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+}
+}
+@media (min-width:750px) {
+  .yo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .eco__plant{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    .eco__shop{
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    .eco__earth{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+ }
 
 // .test{
 //   // background-image: url("/Users/alexannebrunold/Documents/Cours/Semaine-Projets/1er-Semestre-Bee/Bee/src/Vector.png");
@@ -344,8 +389,8 @@ nav.is-open {
    justify-content: center;    
    color: #FFFFFF;
    margin-right: 16px;
- }}}
-}
+ }}
+
 @import 'sass/reset.scss';
 @import 'sass/mobile.scss';
 @media (min-width: 750px){ 

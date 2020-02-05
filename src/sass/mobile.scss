@@ -260,33 +260,7 @@ nav {
     justify-self: center;
    }
 
-   // Eco
-   .eco{
-    background-color: $fifthcolor;
-    height: auto;
-    width: 100vw;
    
-   .eco__title{
-    color: $primarycolor;
-    text-align: center;
-    font-size: 24px;
-    font-family: "Baloo";
-   }
-   .eco__sections{
-    font-size: 14px;
-    text-align: center;
-    margin-top: 24px;
-
-   }
-  .eco__text{
-    width: 80vw;
-    margin: 16px 16px 0px 16px;
-    padding: 0px 16px 0px 16px;
-    text-align: center;
-    font-size: 14px;
-    font-family: "Montserrat Mixed";
-  }
-   }
 
    .footer{
     height: 9.95vh;
@@ -327,31 +301,4 @@ nav {
   padding-top: 24px;
   .eco__title{
     font-size: 48px;
-  }
-  .yo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
-    .eco__plant{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      align-items: center;
-      width: 70%;
-    }
-    .eco__shop{
-      display: flex;
-      flex-direction: row-reverse;
-      justify-content: space-evenly;
-      align-items: center;
-      width: 70%;
-    }
-    .eco__earth{
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      width: 70%;
-    }
- }
- }
+  }}}
