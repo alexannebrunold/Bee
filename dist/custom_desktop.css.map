@@ -1,0 +1,1 @@
+{"version":3,"sources":["custom_desktop.scss"],"names":[],"mappings":"AAAA,EAAE,CAAC;EACC,KAAK,EAAC,IAAI,GACb","file":"custom_desktop.css","sourceRoot":"../src","sourcesContent":["h1 {\n    color:teal;\n}"]}
