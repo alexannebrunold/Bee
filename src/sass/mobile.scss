@@ -307,3 +307,27 @@ nav {
       margin-right: 16px;
     }
    }
+
+   // Custom Up
+
+   .header__custom {
+     width:100vw;
+     height:55px;
+     background-color: $primarycolor;
+     color:#FFFFFF;
+     display: flex;
+   }
+
+   .lis__custom {
+     justify-content: space-around;
+   }
+
+   .jacket__view {
+     display:flex;
+     background-color: $thirdcolor;
+     height:312px;
+     width:288px;
+     margin-top:24px;
+     justify-content:center;
+     align-items:center;
+   }
