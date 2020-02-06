@@ -204,10 +204,11 @@
       }
     .eco__title{
       font-size: 48px;
+      font-family: "Baloo";
     }
-    .yo{
+    .choose__sections{
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       justify-content: center;
       align-items: center;
       }
@@ -342,4 +343,3 @@
     width:30vw;
     margin-right:10vw;
   }
-  
