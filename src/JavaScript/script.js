@@ -5,4 +5,5 @@ if (window.width <= 750) {
 burger.addEventListener('click', function () {
   burger.classList.toggle('is-open')
 })
+
 }
