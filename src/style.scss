@@ -1,11 +1,41 @@
+
+@font-face{
+  font-family: "Baloo";
+  src: url("../src/assets/fonts/baloo/baloo-v5-latin-regular.woff") format("woff");
+  src: url("../src/assets/fonts/baloo/baloo-v5-latin-regular.woff2") format("woff2");
+}
+@font-face{
+  font-family: "Montserrat Light";
+  src: url("../src/assets/fonts/montserrat/Montserrat-Light.woff") format("woff");
+  src: url("../src/assets/fonts/montserrat/Montserrat-Light.woff2") format("woff2");
+}
+@font-face{
+  font-family: "Montserrat Medium";
+  src: url("../src/assets/fonts/montserrat/Montserrat-Medium.woff") format("woff");
+  src: url("../src/assets/fonts/montserrat/Montserrat-Medium.woff2") format("woff2");
+}
+@font-face{
+  font-family: "Montserrat Regular";
+  src: url("../src/assets/fonts/montserrat/Montserrat-Regular.woff") format("woff");
+  src: url("../src/assets/fonts/montserrat/Montserrat-Regular.woff2") format("woff2");
+}
+@font-face{
+  font-family: "Montserrat Semi-Bold";
+  src: url("../src/assets/fonts/montserrat/Montserrat-SemiBold.woff") format("woff");
+  src: url("../src/assets/fonts/montserrat/Montserrat-SemiBold.woff2") format("woff2");
+}
+body{
+ margin: 0;
+ padding:0;
+}
 $primarycolor: #36BDCB;
-  $secondarycolor: #D9F7FA;
-  $thirdcolor:  #F6D6FC;
-  $fourthcolor: #FFD9C9;
-  $fifthcolor: #FFFFC4;
-  $footercolor: #677577;
+$secondarycolor: #D9F7FA;
+$thirdcolor:  #F6D6FC;
+$fourthcolor: #FFD9C9;
+$fifthcolor: #FFFFC4;
+$footercolor: #677577;
+
 @import 'sass/reset.scss';
 @import 'sass/mobile.scss';
-@media (min-width: 750px){ 
 @import 'sass/desktop.scss';
-}
+
