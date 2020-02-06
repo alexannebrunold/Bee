@@ -1,25 +1,43 @@
-@media(min-width:750px){
-   
-  body{
-  background-color:#fcfcfc;
-   margin: 0;
-   padding:0;
-  
-  $primarycolor: #36BDCB;
-  $secondarycolor: #D9F7FA;
-  $thirdcolor:  #F6D6FC;
-  $fourthcolor: #FFD9C9;
-  $fifthcolor: #FFFFC4;
-  $footercolor: #677577;
-.header {
-    background-color:$primarycolor;
-    display:flex;
-    justify-content: space-around;
-    align-items: baseline;
- 
- }
 
-// vestes
+@media (min-width:750px){
+  // vestes
+  nav {
+      top: 0;
+      left: 0;
+      border-radius: 0;
+      width: 100%;
+    .open {
+      display: none;
+    }
+    
+    .lis {
+      position: static;
+      opacity: 1;
+      transform: none;
+      height: 100%;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    
+    .burger__li {
+      width: 78px;
+height: 16px;
+left: 74px;
+top: 24px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+
+    }
+    
+    .burger__li:not(:last-child) {
+      margin-bottom: 0;
+    }
+  }
+
   .jackets {
     display: flex;
     flex-direction: row;
@@ -47,13 +65,29 @@
         height: 45vh;
         transform: rotate(36deg);
 
-  }
-}
-@media (min-width:750px) {
-    width: 100vw;
-    margin: 0;
-    padding: 0;
-    padding-top: 24px;
+    }
+  
+  background-color: white;
+      font-size: 48px;
+      padding-top: 24px;
+      height: 72vh;
+
+      .button__fans{
+        height: 8.38vh;
+        width: 32vw;
+        font-size: 24px;
+        border-radius: 20.5px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+      }
+      .fans__img{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+        grid-template-rows: 1fr 1fr;
+      }
+      }   
+
     .eco__title{
       font-size: 48px;
     }
@@ -61,13 +95,27 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
+      align-items: center;
       }
       .eco__plant{
-        flex-direction: column;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
       }
-   }
-   }
-
+      .eco__shop{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      .eco__earth{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+    }
    //Custom Page
 
    .fond{
@@ -147,4 +195,3 @@
    }
   }
   
-
