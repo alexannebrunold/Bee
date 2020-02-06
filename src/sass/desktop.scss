@@ -309,37 +309,5 @@
    .addBasket{
     display: inline;
    }
-
-   //Basket Page
-
-   .rainbowpng{
-     position:absolute;
-     z-index: -1;
-   }
-
-   .titleBasket{
-    font-size:48px;
-    margin-top:40px;
-    margin-bottom:80px;
-  }
-  .resumeBasket{
-    display:flex;
-  }
-  .resumeBasket__jacket{
-    width:150px;
-    margin-left:10vw;
-    margin-bottom:24vh;
-  }
-  .resumeBasket__infos.product{
-    width:35vw;
-  }
-  .priceBin.bin{
-    margin-left:5vw;
-  }
-  .resumeBasket__infos.buttonPay{
-    margin-left:0px;
-  }
-  .resumeBasket__SAV{
-    width:30vw;
-    margin-right:10vw;
-  }
+  
+  
