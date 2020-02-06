@@ -168,8 +168,7 @@ li:not(:last-child) {
     color: #FFFFFF;
     padding-top: 16px;
   }
-  
-
+}
 
 .jackets {
     display: flex;
@@ -337,7 +336,7 @@ li:not(:last-child) {
     grid-template-rows: 1fr 1fr;
     padding-top: 32px;
   }
-} 
+}
 
    .star1{
     height: 17.85vh;
@@ -385,8 +384,66 @@ li:not(:last-child) {
       font-size: 48px;
       font-family: "Baloo";
     }
-
-   }
+    .yo{
+      position: relative;
+      z-index: 1;
+      overflow: hidden;
+      .r{
+        width: 100vw;
+        height: auto;
+        left: 0;
+        position: absolute;
+        z-index: -1;
+        bottom: 2%;
+      }
+      .rr{
+        width: 100vw;
+        height: auto;
+        left: 0;
+        position: absolute;
+        z-index: -1;
+        bottom: 2%;
+      }
+      .rrr{
+        width: 100vw;
+        height: auto;
+        left: 0;
+        position: absolute;
+        z-index: -1;
+        top: 56%;
+      }
+      .rrrr{
+        width: 100vw;
+        height: auto;
+        left: 0;
+        position: absolute;
+        z-index: -1;
+        top: 62%;
+       
+      }
+        .eco__plant, .eco__shop, .eco__earth{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 24px;
+          width: auto;
+          font-family: "Montserrat Regular";
+          font-size: 14px;
+        }
+        .eco__plant img, .eco__shop img, .eco__earth img{
+          margin-bottom: 16px;
+        }
+        .eco__text__color__thirdcolor{
+          color: $thirdcolor;
+        }
+        .eco__text__color__primarycolor{
+          color: $primarycolor;
+        }
+        .eco__text__color__fourthcolor{
+          color: $fourthcolor;
+        }
+}
    //Page Custom, Top Part
    p{
      font-family:Montserrat Regular;
@@ -524,7 +581,8 @@ li:not(:last-child) {
    }
    //Basket page
    .rainbowpng{
-     display:none;}
+     display:none;
+    }
    .titleBasket{
     font-size:40px;
     color:$primarycolor;
@@ -567,72 +625,6 @@ li:not(:last-child) {
     margin-bottom:32px;
   }
       
-    .yo{
-      position: relative;
-      z-index: 1;
-      overflow: hidden;
-      .r{
-        width: 100vw;
-        height: auto;
-        left: 0;
-        position: absolute;
-        z-index: -1;
-        bottom: 2%;
-      }
-      .rr{
-        width: 100vw;
-        height: auto;
-        left: 0;
-        position: absolute;
-        z-index: -1;
-        bottom: 2%;
-      }
-      .rrr{
-        width: 100vw;
-        height: auto;
-        left: 0;
-        position: absolute;
-        z-index: -1;
-        top: 56%;
-      }
-      .rrrr{
-        width: 100vw;
-        height: auto;
-        left: 0;
-        position: absolute;
-        z-index: -1;
-        top: 62%;
-       
-      }
-        .eco__plant, .eco__shop, .eco__earth{
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          margin-bottom: 24px;
-          width: auto;
-          font-family: "Montserrat Regular";
-          font-size: 14px;
-        }
-        .eco__plant img, .eco__shop img, .eco__earth img{
-          margin-bottom: 16px;
-        }
-        .eco__text__color__thirdcolor{
-          color: $thirdcolor;
-        }
-        .eco__text__color__primarycolor{
-          color: $primarycolor;
-        }
-        .eco__text__color__fourthcolor{
-          color: $fourthcolor;
-        }
-        
-    }
-
-}
-
-
-
 //Footer
 .footer {
   height: 9.95vh;
@@ -687,3 +679,4 @@ li:not(:last-child) {
 .title {
   display: flex;
 }
+} 
