@@ -1,7 +1,5 @@
-
 @media(max-width:750px){
   //keyframes
-
 nav {
   position: fixed;
   bottom: 15px;
@@ -12,12 +10,12 @@ nav {
   overflow: hidden;
   transition: height 0.5s, width 0.5s, left 0.5s, bottom 0.5s, border-radius 0.3s;
   z-index:1;
+
   background-color: $primarycolor;
 }
 #burger__menu{
   width:100vw;
 }
-
 nav.is-open {
   height: 100vh;
   width: 100vw;
@@ -157,8 +155,6 @@ li:not(:last-child) {
   width: 100vw;
   height: 50vh;
   position: absolute;
-
-
   .slogan {
     display: flex;
     left: 40%;
@@ -291,7 +287,6 @@ li:not(:last-child) {
     text-align: center;
     padding-top: 16px;
     font-size: 24px;
-   
     .fans__title{
       font-family: Baloo;
     }
@@ -307,6 +302,7 @@ li:not(:last-child) {
       grid-template-columns: 1fr 1fr;
       grid-gap: 15px;
       grid-template-rows: 1fr 1fr;
+
       padding-top: 32px;
 
       font-family: "Baloo";
@@ -326,9 +322,8 @@ li:not(:last-child) {
         display: block;
         margin: auto;
         box-shadow: 4px 4px 0px $thirdcolor;
-    }
 
-      
+    }     
   .fans__img {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -337,7 +332,6 @@ li:not(:last-child) {
     padding-top: 32px;
   }
 }
-
    .star1{
     height: 17.85vh;
     width: auto;
@@ -373,7 +367,6 @@ li:not(:last-child) {
     align-self: center;
     justify-self: center;
    }
-
    //Eco
 .eco{
     background-color: white;
@@ -483,6 +476,7 @@ li:not(:last-child) {
 
 
 // Cart
+
 
 .header__bee {
   display: flex;
