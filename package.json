@@ -11,7 +11,10 @@
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^4.13.0",
-    "parcel-bundler": "^1.12.4"
+
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.25.0"
+
   },
   "dependencies": {
     "parcel": "^1.12.4"
@@ -26,3 +29,5 @@
   },
   "homepage": "https://github.com/alexannebrunold/Bee#readme"
 }
+
+
