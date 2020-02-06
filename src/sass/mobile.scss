@@ -168,8 +168,7 @@ li:not(:last-child) {
     color: #FFFFFF;
     padding-top: 16px;
   }
-  
-
+}
 
 .jackets {
     display: flex;
@@ -337,7 +336,7 @@ li:not(:last-child) {
     grid-template-rows: 1fr 1fr;
     padding-top: 32px;
   }
-} 
+}
 
    .star1{
     height: 17.85vh;
@@ -444,9 +443,7 @@ li:not(:last-child) {
         .eco__text__color__fourthcolor{
           color: $fourthcolor;
         }
-        
-    }
-   }
+}
    //Page Custom, Top Part
    p{
      font-family:Montserrat Regular;
@@ -584,7 +581,8 @@ li:not(:last-child) {
    }
    //Basket page
    .rainbowpng{
-     display:none;}
+     display:none;
+    }
    .titleBasket{
     font-size:40px;
     color:$primarycolor;
@@ -626,11 +624,7 @@ li:not(:last-child) {
     margin-right:12px;
     margin-bottom:32px;
   }
-
-}
-
-
-
+      
 //Footer
 .footer {
   height: 9.95vh;
@@ -685,3 +679,4 @@ li:not(:last-child) {
 .title {
   display: flex;
 }
+} 

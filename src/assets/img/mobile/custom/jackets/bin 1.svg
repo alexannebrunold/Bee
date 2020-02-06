@@ -1,4 +1,6 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0)">
 <path d="M11.4831 6.52144C11.2502 6.52144 11.0615 6.71015 11.0615 6.94298V14.9102C11.0615 15.1429 11.2502 15.3317 11.4831 15.3317C11.7159 15.3317 11.9046 15.1429 11.9046 14.9102V6.94298C11.9046 6.71015 11.7159 6.52144 11.4831 6.52144Z" fill="#6C6C6C"/>
@@ -10,6 +12,7 @@
 <clipPath id="clip0">
 <rect width="18" height="18" fill="white"/>
 =======
+>>>>>>> 8343eb45b342adf72ff64b83637a18b7a82df9d7
 
 <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0)">
@@ -21,7 +24,10 @@
 <defs>
 <clipPath id="clip0">
 <rect width="30" height="30" fill="white"/>
+<<<<<<< HEAD
+=======
 >>>>>>> 37a2a448a51635edb53cb0c35fd0b7df0278db3a
+>>>>>>> 8343eb45b342adf72ff64b83637a18b7a82df9d7
 </clipPath>
 </defs>
 </svg>
