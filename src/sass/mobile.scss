@@ -1,3 +1,4 @@
+
 //keyframes
 nav {
   position: fixed;
@@ -319,7 +320,7 @@ li:not(:last-child) {
         text-align: center;
         margin-bottom: 16px;
         box-shadow: 4px 4px 0px $thirdcolor;
-        
+       
 }
       }
       .choose__sections{
@@ -335,11 +336,14 @@ li:not(:last-child) {
         width: auto;
         padding-top: 16px;
       }
+      .linkCustom{
+        text-decoration: none;
+     color:white;
+      }
       .choose__price{
         color: black;
         font-size: 18px;
       }
-
 
       //Desktop
       @media (min-width:750px) {
@@ -394,12 +398,10 @@ li:not(:last-child) {
       margin-bottom: 24px;
     }
     .fans__img {
-
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-gap: 15px;
       grid-template-rows: 1fr 1fr;
-
       padding-top: 32px;
     }
     .button__fans{
@@ -414,7 +416,6 @@ li:not(:last-child) {
         display: block;
         margin: auto;
         box-shadow: 4px 4px 0px $thirdcolor;
-
     }
     
     @media (min-width:750px) {
@@ -437,10 +438,8 @@ li:not(:last-child) {
         grid-template-rows: 1fr 1fr;
       }
       }   
-    
    }
    
-
    .star1{
     height: 17.85vh;
     width: auto;
@@ -476,7 +475,6 @@ li:not(:last-child) {
     align-self: center;
     justify-self: center;
    }
-
 
    //Eco
    .eco{
@@ -549,7 +547,13 @@ li:not(:last-child) {
     }
    }
    //Page Custom, Top Part
-
+   p{
+     font-family:Montserrat Regular;
+   }
+   .linkBesket{
+     text-decoration: none;
+     color:white;
+   }
    .visualisation{
      width:60%;
      position:relative;
@@ -677,217 +681,47 @@ li:not(:last-child) {
     display: block;
     box-shadow: 4px 4px 0px $thirdcolor;
    }
-
-   // Cart 
-
-   .header__bee {
-    display: flex;
-    background-color: $primarycolor;
-    width: 100vw;
-    height: 65px;
-    &.logoBee {
-      object-fit: scale-down;
-      justify-content: center;
-     align-items: center;
-    }}}}
-
-    }
-
-
-
-.star1 {
-  height: 17.85vh;
-  width: auto;
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
-  align-self: center;
-  justify-self: center;
-}
-
-.star2 {
-  height: 17.85vh;
-  width: auto;
-  grid-column: 2 / 2;
-  grid-row: minmax (100px, auto);
-  align-self: center;
-  justify-self: center;
-}
-
-.star3 {
-  height: 17.85vh;
-  width: auto;
-  grid-column: 1 / 2;
-  grid-row: 2 / 2;
-  align-self: center;
-  justify-self: center;
-}
-
-.star4 {
-  height: 17.85vh;
-  width: auto;
-  grid-column: 2 / 2;
-  grid-row: 2 / 2;
-  align-self: center;
-  justify-self: center;
-}
-.eco {
-  background-color: $fifthcolor;
-  height: auto;
-  width: 100vw;
-  padding: 16px 0px;
-
-  .eco__title {
-    color: $primarycolor;
+   //Basket page
+   .rainbowpng{
+     display:none;}
+   .titleBasket{
+    font-size:40px;
+    color:$primarycolor;
+    font-family:Baloo;
     text-align: center;
-    font-size: 24px;
+    margin:40px;
   }
-  .eco__sections {
-    font-size: 14px;
-    text-align: center;
-    margin-top: 24px;
+  .resumeBasket__jacket{
+    margin:auto;
+    display:block;
+    width:50vw;
+    margin-bottom:54px;
   }
-}
-.footer {
-  height: 9.95vh;
-  width: 100vw;
-  background-color: $footercolor;
-  display: flex;
-  flex-direction: row;
-  .text__footer {
-    font-size: 10px;
-    width: 24vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #ffffff;
-    margin-left: 16px;
+  .resumeBasket__infos{
+    margin-left:12px;
+    margin-bottom:24px;
+    font-size:18px;
   }
-  .icons__footer {
-    justify-content: center;
-    font-size: 10px;
-    width: 52vw;
-    margin-top: 3vh;
-    color: #ffffff;
+  .resumeBasket__infos--bold{
+    font-weight:bold;
   }
-  .text__footer1 {
-    width: 24vw;
-    font-size: 10px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #ffffff;
-    margin-right: 16px;
+  .resumeBasket__infos.priceBin{
+    display:flex;
   }
-}
-
-// Cart
-
-.header__bee {
-  display: flex;
-  background-color: $primarycolor;
-  width: 100vw;
-  height: 65px;
-  .logoBee {
-    object-fit: scale-down;
-    justify-content: center;
-    align-items: center;
+  .priceBin.price{
+    margin-top:30px;
   }
-}
-.title {
-  display: flex;
-}
-
-//Page Custom, Bottom Part
-
-.personalisation__title {
-  font-size: 24px;
-  color: $primarycolor;
-  text-align: center;
-  margin-bottom: 16px;
-}
-.personalisation__color {
-  text-align: center;
-}
-.personalisation__bleach {
-  margin-right: 28px;
-}
-.personalisation__titleSize {
-  font-size: 24px;
-  margin: 24px;
-  text-align: center;
-}
-.personalisation__collec {
-  text-align: center;
-}
-.personalisation__patch {
-  margin-right: 22px;
-  margin-bottom: 16px;
-}
-.board {
-  border: solid black 0.1px;
-  width: 300px;
-  margin-left: 16px;
-  display: flex;
-  flex-wrap: wrap;
-  padding-bottom: 16px;
-}
-.board__patch {
-  margin-left: 21px;
-  margin-right: 21px;
-  margin-top: 16px;
-}
-.save {
-  background-color: $primarycolor;
-  color: white;
-  height: 36px;
-  width: 146px;
-  border: none;
-  margin: auto;
-  margin-top: 48px;
-  border-radius: 20.5px;
-  display: block;
-  box-shadow: 4px 4px 0px $thirdcolor;
-}
-.addBasket {
-  background-color: $primarycolor;
-  color: white;
-  height: 36px;
-  width: 191px;
-  border: none;
-  margin: auto;
-  margin-top: 32px;
-  border-radius: 20.5px;
-  display: block;
-  box-shadow: 4px 4px 0px $thirdcolor;
-}
-
-// Custom Up
-
-// Cart
-
-.header__bee {
-  display: flex;
-  background-color: $primarycolor;
-  width: 100vw;
-  height: 65px;
-  &.logoBee {
-    object-fit: scale-down;
-    justify-content: center;
-    align-items: center;
+  .priceBin.bin{
+    margin-left:15vw;
   }
-}
-.title {
-  display: flex;
-}
-
-.jacket__view {
-  display: flex;
-  background-color: $thirdcolor;
-  height: 312px;
-  width: 288px;
-  margin-top: 24px;
-  justify-content: center;
-  align-items: center;
-}
-
+  .resumeBasket__infos.buttonPay{
+    margin-top:16px;
+    margin-bottom:48px;
+    margin-left:20%;
+  }
+  .resumeBasket__SAV{
+    font-size:18px;
+    margin-left:12px;
+    margin-right:12px;
+    margin-bottom:32px;
+  }

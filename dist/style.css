@@ -281,6 +281,12 @@ nav.is-open ul.lis .burger__li:not(:last-child) {
   width: auto;
   padding-top: 16px;
 }
+
+.choose .linkCustom {
+  text-decoration: none;
+  color: white;
+}
+
 .choose .choose__price {
   color: black;
   font-size: 18px;
@@ -436,6 +442,15 @@ nav.is-open ul.lis .burger__li:not(:last-child) {
   margin-right: 16px;
 }
 
+p {
+  font-family: Montserrat Regular;
+}
+
+.linkBesket {
+  text-decoration: none;
+  color: white;
+}
+
 .visualisation {
   width: 60%;
   position: relative;
@@ -583,6 +598,60 @@ nav.is-open ul.lis .burger__li:not(:last-child) {
   border-radius: 20.5px;
   display: block;
   box-shadow: 4px 4px 0px #F6D6FC;
+}
+
+.rainbowpng {
+  display: none;
+}
+
+.titleBasket {
+  font-size: 40px;
+  color: #36BDCB;
+  font-family: Baloo;
+  text-align: center;
+  margin: 40px;
+}
+
+.resumeBasket__jacket {
+  margin: auto;
+  display: block;
+  width: 50vw;
+  margin-bottom: 54px;
+}
+
+.resumeBasket__infos {
+  margin-left: 12px;
+  margin-bottom: 24px;
+  font-size: 18px;
+}
+
+.resumeBasket__infos--bold {
+  font-weight: bold;
+}
+
+.resumeBasket__infos.priceBin {
+  display: flex;
+}
+
+.priceBin.price {
+  margin-top: 30px;
+}
+
+.priceBin.bin {
+  margin-left: 15vw;
+}
+
+.resumeBasket__infos.buttonPay {
+  margin-top: 16px;
+  margin-bottom: 48px;
+  margin-left: 20%;
+}
+
+.resumeBasket__SAV {
+  font-size: 18px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 32px;
 }
 
 @media (min-width: 750px) {
@@ -752,5 +821,53 @@ nav.is-open ul.lis .burger__li:not(:last-child) {
     display: inline;
   }
 }
+
+@media (min-width: 750px) {
+  .rainbowpng {
+    position: absolute;
+    z-index: -1;
+  }
+}
+@media (min-width: 750px) {
+  .titleBasket {
+    font-size: 48px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+  }
+}
+@media (min-width: 750px) {
+  .resumeBasket {
+    display: flex;
+  }
+}
+@media (min-width: 750px) {
+  .resumeBasket__jacket {
+    width: 150px;
+    margin-left: 10vw;
+    margin-bottom: 24vh;
+  }
+}
+@media (min-width: 750px) {
+  .resumeBasket__infos.product {
+    width: 35vw;
+  }
+}
+@media (min-width: 750px) {
+  .priceBin.bin {
+    margin-left: 5vw;
+  }
+}
+@media (min-width: 750px) {
+  .resumeBasket__infos.buttonPay {
+    margin-left: 0px;
+  }
+}
+@media (min-width: 750px) {
+  .resumeBasket__SAV {
+    width: 30vw;
+    margin-right: 10vw;
+  }
+}
+
 
 /*# sourceMappingURL=/style.css.map */
