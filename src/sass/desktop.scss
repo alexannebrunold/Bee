@@ -211,24 +211,49 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      background-image: url("assets/rrainbow.png");
+background-repeat: no-repeat;
+font-family: Montserrat Regular;
       }
       .eco__plant{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
+        width:60%;
+          p {
+            b {
+            font-family:Montserrat Semi-Bold;
+            color:#E4B6ED;
+            }
+         }
       }
+      
       .eco__shop{
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-evenly;
         align-items: center;
+        width:60%;
+        p {
+          b {
+          font-family:Montserrat Semi-Bold;
+          color:#9BD8DE;
+          }
+       }
       }
       .eco__earth{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
+        width:60%;
+        p {
+          b {
+          font-family:Montserrat Semi-Bold;
+          color:#F1C8B7;
+          }
+       }
       }
 
 
