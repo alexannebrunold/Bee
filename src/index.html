@@ -16,9 +16,9 @@
         <a href="pages/cart.html"></a>
             <nav id='burger__menu'>
                 <ul class="lis">
-                    <li class="burger__li first__li">Concept</li>
-                    <li class="burger__li second__li">Nous trouver</li>
-                    <li class="burger__li third__li">A propos</li>
+                    <li class="burger__li first__li"><a href="#choose">Concept</a></li>
+                    <li class="burger__li second__li"><a href="#fans">Nous trouver</a></li>
+                    <li class="burger__li third__li"><a href="#valeur">A propos</a></li>
                 </ul>
                 <div class="open" id="open">
                     <div class="open-icon"></div>
@@ -28,7 +28,7 @@
     </ul>
     </nav>
     <!--Bannière-->
-    <div class="banner">
+    <article class="banner">
         <img src ="assets/Arc-en-Ciel.png" alt="" class="rainbow">
         <h1 class="slogan">Bee yourself,<br> patch it.*</h1>
 
@@ -42,42 +42,42 @@
         <p class='sentence'>Revivez les années 70 avec notre collection <br>de plus de 100 stickers pour patcher<br>
             votre jacket.</p>
             <button type="button" class="button__choose"><a href="pages/custom.html">CRÉEZ VOTRE VESTE</a></button>
-    </div>
+    </article>
     <!-- Choisir le modèle -->
 
-    <article class="choose">
+    <article class="choose" id="choose">
         <p class="choose__title">Choisis ton modèle</p>
         <div class="choose__sections">
             <section class="choose__blue">
                 <img src="assets/img/mobile/landing/Veste_Jean_Bleached 1.png" alt="Blue jacket" class="blue__jacket">
                 <button type="button" class="button__choose"><a href="pages/custom.html">PERSONNALISER</a></button>
-                <p class="choose__price">À partir de 60$</p>
+                <p class="choose__price">À partir de 60€</p>
             </section>
 
             <section class="choose__dark">
                 <img src="assets/img/mobile/landing/Veste_Jean_Noire 1.png" alt="Dark jacket" class="dark__jacket">
                 <button type="button" class="button__choose"><a href="pages/custom.html">PERSONNALISER</a></button>
-                <p class="choose__price">À partir de 60$</p>
+                <p class="choose__price">À partir de 60€</p>
             </section>
         </div>
     </article>
     <!-- Fans -->
 
-    <article class="fans">
+    <article class="fans" id="fans">
         <p class="fans__title">Ils sont déjà fan de Bee</p>
-        <button type="button" class="button__fans">Suivez-nous sur Instagram</button>
+        <button type="button" class="button__fans"><a href="https://www.instagram.com/?hl=fr">SUIVEZ-NOUS SUR INSTAGRAM !</a></button>
         <figure class="fans__img">
-            <img src="assets/img/mobile/landing/social/jaden_mobile.png" alt="Star 1" class="star1">
-            <img src="assets/img/mobile/landing/social/bobbie_brown.png" alt="Star 2" class="star2">
-            <img src="assets/img/mobile/landing/social/bobbie_brown.png" alt="Star 3" class="star3">
-            <img src="assets/img/mobile/landing/social/trippie_mobile.png" alt="Star 4" class="star4">
+            <img src="assets/img/desktop/landing/social/jaden.png" alt="Star 1" class="star1">
+            <img src="assets/img/desktop/landing/social/bobbie_brown.png" alt="Star 2" class="star2">
+            <img src="assets/img/desktop/landing/social/trippie.png" alt="Star 3" class="star3">
+            <img src="assets/img/desktop/landing/social/jenner.png" alt="Star 4" class="star4">
         </figure>
     </article>
     <!-- Eco -->
-    <article class="eco">
+    <article class="eco" id="valeur">
         <p class="eco__title">Notre petite touche à nous</p>
-
         <div class="yo">
+            <img src="../Arc-en-Ciel.png" alt="Arc-en-Ciel">
             <div class="eco__plant">
                 <img src="assets/img/mobile/landing/eco/plant.svg" alt="Plant">
                 <p>Nous utilisons uniquement du chanvre pour confectionner nos vestes
@@ -85,34 +85,34 @@
                     un
                     matériaux textile naturel
                     capable d’absorber le CO2.</p>
-            </div>
-            <div class="eco__shop">
-                <img src="assets/img/mobile/landing/eco/shop.svg" alt="Shop">
-                <p>L’émission de CO2 est limité, notre site de production se situe à
-                    moins de
-                    30km
-                    de
-                    notre site de vente et
-                    nous ne livrons pas.</p>
-
-            </div>
-
-            <div class="eco__earth">
-                <img src="assets/img/mobile/landing/eco/earth.svg" alt="Earth">
-                <p>Nos vestes sont dépourvues de substances néfastes comme certaines
-                    teintures
-                    ou
-                    enduits.
-                    Elles sont également économe en resources.</p>
-            </div>
-        </div>
-        </div>
-    </article>
-    <!-- Footer -->
-
-    <footer class="footer">
-        <div class="text__footer">
-            <p>Mentions légales</p>
+                </div>
+                <div class="eco__shop">
+                    <img src="assets/img/mobile/landing/eco/shop.svg" alt="Shop">
+                    <p>L’émission de CO2 est limité, notre site de production se situe à
+                        moins de
+                        30km
+                        de
+                        notre site de vente et
+                        nous ne livrons pas.</p>
+                        
+                    </div>
+                    
+                    <div class="eco__earth">
+                        <img src="assets/img/mobile/landing/eco/earth.svg" alt="Earth">
+                        <p>Nos vestes sont dépourvues de substances néfastes comme certaines
+                            teintures
+                            ou
+                            enduits.
+                            Elles sont également économe en resources.</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- Footer -->
+            
+            <footer class="footer">
+                <div class="text__footer">
+                    <p>Mentions légales</p>
         </div>
         <figure class="icons__footer">
             <img src="assets/img/mobile/landing/footer/instagram.svg" alt="Instagram">
