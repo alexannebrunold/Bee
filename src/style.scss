@@ -1,3 +1,4 @@
+
 @font-face{
   font-family: "Baloo";
   src: url("../src/assets/fonts/baloo/baloo-v5-latin-regular.woff") format("woff");
@@ -23,6 +24,10 @@
   src: url("../src/assets/fonts/montserrat/Montserrat-SemiBold.woff") format("woff");
   src: url("../src/assets/fonts/montserrat/Montserrat-SemiBold.woff2") format("woff2");
 }
+body{
+ margin: 0;
+ padding:0;
+}
 $primarycolor: #36BDCB;
 $secondarycolor: #D9F7FA;
 $thirdcolor:  #F6D6FC;
@@ -32,3 +37,4 @@ $footercolor: #677577;
 @import 'sass/reset.scss';
 @import 'sass/mobile.scss';
 @import 'sass/desktop.scss';
+

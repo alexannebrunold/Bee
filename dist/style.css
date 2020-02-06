@@ -281,10 +281,12 @@ nav.is-open ul.lis .burger__li:not(:last-child) {
   width: auto;
   padding-top: 16px;
 }
+
 .choose .linkCustom {
   text-decoration: none;
   color: white;
 }
+
 .choose .choose__price {
   color: black;
   font-size: 18px;
@@ -819,6 +821,7 @@ p {
     display: inline;
   }
 }
+
 @media (min-width: 750px) {
   .rainbowpng {
     position: absolute;
@@ -865,5 +868,6 @@ p {
     margin-right: 10vw;
   }
 }
+
 
 /*# sourceMappingURL=/style.css.map */
