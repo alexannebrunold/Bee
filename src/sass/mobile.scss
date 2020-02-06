@@ -1,11 +1,5 @@
-
-$primarycolor: #36BDCB;
-  $secondarycolor: #D9F7FA;
-  $thirdcolor:  #F6D6FC;
-  $fourthcolor: #FFD9C9;
-  $fifthcolor: #FFFFC4;
-  $footercolor: #677577;
-//keyframes
+@media(max-width:750px){
+  //keyframes
 nav {
   position: fixed;
   bottom: 15px;
@@ -16,7 +10,7 @@ nav {
   overflow: hidden;
   transition: height 0.5s, width 0.5s, left 0.5s, bottom 0.5s, border-radius 0.3s;
   z-index:1;
-
+  background-color: $primarycolor;
 }
 
 nav.is-open {
@@ -128,9 +122,6 @@ li:not(:last-child) {
     background-color: $primarycolor;
   }
   
-  .open {
-    display: none;
-  }
   
   ul {
     position: static;
@@ -156,52 +147,80 @@ li:not(:last-child) {
     .burger__li:not(:last-child) {
       margin-bottom: 0;
     }
-
 .banner {
   background-color: $primarycolor;
   width: 100vw;
   height: 50vh;
   position: absolute;
+
+
   .slogan {
+    display: flex;
+    left: 40%;
     text-align: center;
-    top: 30vh;
+    position: absolute;
+    font-family: "Baloo";
+    color: #FFFFFF;
+    padding-top: 16px;
   }
-}
-.sentence {
-  text-align: center;
-  position: relative;
-  top: 36vh;
-  flex-flow: column wrap;
-  color: white;
-  .jackets {
+  
+
+
+.jackets {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    overflow: hidden;
-    top: -4%;
-    right: -64vw;
+    justify-content: space-around;
+    align-content: center;
+    // position: absolute;
+    // overflow: hidden;
     width: auto;
-    height: 100vh;
-    .left__jacket {
-      position: relative;
+    margin-left: 32px;
+    padding-top: 40px;
+  }
+.left__jacket {
       width: auto;
-      height: 43vh;
-      transform: rotate(-25.79deg);
-      top: -22px;
-      left: 0px;
+      height: 32vh;
+      // transform: rotate(-8deg);
+      // margin-right: -100px;
+
     }
-    .right__jacket {
-      position: relative;
+.right__jacket {
+      // position: relative;
       width: auto;
-      bottom: 55vh;
-      right: -2px;
-      height: 45vh;
-      transform: rotate(36deg);
+      height: 32vh;
+      transform: rotate(16deg);
+  // padding-left: -100px;
+    }
+    .sentence {
+      text-align: center;
+      color: white;
+      width: 48vw;
+      height: auto;
+      margin-top: -24px;
+      left: 26%;
+      font-family: "Montserrat light";
+      position: absolute;
+    }
+
+    .button__banner{
+      background-color: $primarycolor;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 20.5px;
+    text-align: center;
+    box-shadow: 4px 4px 0px $thirdcolor;
+    margin-top: 18%;
+    margin-left: 27%;
     }
   }
-}
+    
+    //Home
+
+    .rainbow{
+      display: none;
+    }
+  
 //  Choisir le modèle
 .choose {
   // background-color: $thirdcolor;
@@ -211,25 +230,41 @@ li:not(:last-child) {
   padding-top: 16px;
   padding-bottom: 15px;
   font-size: 24px;
-  .choose__title{
-    font-size: 24px;
-    font-family: "Baloo";
-  }
+}
   .button__choose {
     background-color: $primarycolor;
     border: none;
     color: #ffffff;
     height: 6vh;
-    width: 48vw;
+    width: 13vw;
     font-size: 14px;
     border-radius: 20.5px;
-    margin-top: 10px;
+    margin-top: 100px;
     margin-bottom: 10px;
     display: block;
     margin: auto;
     text-align: center;
     margin-bottom: 16px;
     box-shadow: 4px 4px 0px $thirdcolor;
+    position: relative;
+  
+  }
+     a {
+       text-decoration:none;
+       color:white;
+     }
+  
+  .button__choose:hover {
+    box-shadow: none;
+  }
+  
+  .choose__sections {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
   }
   .blue__jacket,
   .dark__jacket {
@@ -240,17 +275,38 @@ li:not(:last-child) {
   .choose__price {
     color: black;
     font-size: 18px;
-  }
+    font-family: "Montserrat Medium";
+  
+}
 
-// Fans
-.fans {
-  background-color: $secondarycolor;
-  height: 72vh;
-  color: $primarycolor;
-  text-align: center;
-  padding-top: 16px;
-  font-size: 24px;
-  // margin-bottom: 16px;
+   
+   // Fans 
+   .fans{
+    height: 56vh;
+    color: $primarycolor;
+    text-align: center;
+    padding-top: 16px;
+    font-size: 24px;
+   }
+    .fans__title{
+      font-family: Baloo;
+    }
+   
+    .button__fans{
+      background-color: $primarycolor;
+        border: none;
+        color: #FFFFFF;
+        height: 5vh;
+        width: 48vw;
+        font-size: 10px;
+        border-radius: 20.5px;
+        margin-top: 50px;
+        display: block;
+        margin: auto;
+        box-shadow: 4px 4px 0px $thirdcolor;
+
+    }
+      
   .fans__img {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -258,144 +314,7 @@ li:not(:last-child) {
     grid-template-rows: 1fr 1fr;
     padding-top: 32px;
   }
-  .button__fans {
-    background-color: $primarycolor;
-    border: none;
-    color: #ffffff;
-    height: 5vh;
-    width: 48vw;
-    font-size: 10px;
-    border-radius: 20.5px;
-    margin-top: 50px;
-    display: block;
-    margin: auto;
-    box-shadow: 4px 4px 0px $thirdcolor;
-  }
-
-  // @media (min-width: 750px) {
-  //   font-size: 48px;
-  //   padding-top: 24px;
-  //   .button__fans {
-  //     height: 8.38vh;
-  //     width: 32vw;
-  //     font-size: 24px;
-
-  //     font-family: "Baloo";
-  //     .button__choose{
-  //       background-color: $primarycolor;
-  //       border: none;
-  //       color: #FFFFFF;
-  //       height: 6vh;
-  //       width: 48vw;
-  //       font-size: 14px;
-  //       border-radius: 20.5px;
-  //       margin-top: 10px;
-  //       margin-bottom: 10px;
-  //       display: block;
-  //       margin: auto;
-  //       text-align: center;
-  //       margin-bottom: 16px;
-  //       box-shadow: 4px 4px 0px $thirdcolor;
-  //     }
-  //     .choose__sections{
-  //       font-size: 18px;
-  //       display: flex;
-  //       flex-direction: column;
-  //       justify-content: center;
-  //       align-items: center;
-  //       margin-top: 24px;
-  //     }
-  //     .blue__jacket, .dark__jacket{
-  //       height: 46vh;
-  //       width: auto;
-  //       padding-top: 16px;
-  //     }
-  //     .choose__price{
-  //       color: black;
-  //       font-size: 18px;
-  //     }
-
-
-      // //Desktop
-      // @media (min-width:750px) {
-      //   font-family: "Montserrat";
-      //   .choose__title{
-      //     font-size: 48px;
-      //     font-family: "Baloo";
-      //   }
-      //   .choose__sections{
-      //     display: flex;
-      //     flex-direction: row;
-      //     justify-content: center;
-      //     align-items: center;
-      //     justify-self: center;
-      //   }
-      //   .choose__blue{
-      //     padding-right: 160px;
-      //   }
-      //   .choose__price{
-      //     font-size: 18px;
-
-      //     justify-content: space-evenly;
-      //   }
-      //   .button__choose{
-      //     width: 36vw;
-      //     height: 7.5vh;
-      //     text-align: center;
-      //     font-size: 24px;
-      //   }
-
-      //   .choose__price{
-      //     font-size: 18px;
-      //     font-family: "Montserrat Light";
-      //   }
-      
-   
-   
-   // Fans 
-   .fans{
-    height: 56vh;
-
-    color: $primarycolor;
-    text-align: center;
-    padding-top: 16px;
-    font-size: 24px;
-    .fans__title{
-      font-family: "Baloo";
-    }
-
-    .fans__img{
-
-      border-radius: 20.5px;
-      margin-top: 24px;
-      margin-bottom: 24px;
-    }
-    .fans__img {
-
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-gap: 15px;
-      grid-template-rows: 1fr 1fr;
-
-      padding-top: 32px;
-    }
-    // .button__fans{
-    //   background-color: $primarycolor;
-    //     border: none;
-    //     color: #FFFFFF;
-    //     height: 5vh;
-    //     width: 48vw;
-    //     font-size: 10px;
-    //     border-radius: 20.5px;
-    //     margin-top: 50px;
-    //     display: block;
-    //     margin: auto;
-    //     box-shadow: 4px 4px 0px $thirdcolor;
-
-    // }
-  
-   
-
+    
    .star1{
     height: 17.85vh;
     width: auto;
@@ -432,153 +351,49 @@ li:not(:last-child) {
     justify-self: center;
    }
 
+   //Page Custom, Top Part
 
-   //Eco
-   .eco{
-    height: auto;
-    width: 100vw;
-    padding: 16px 0px;
-
-   .eco__title{
-    text-align: center;
-    font-size: 24px;
-    font-family: "Baloo";
-    margin-top: 8px;
-    margin-bottom: 16px;
-   }
-   .yo{
-     margin-left: 16px;
-     margin-right: 16px;
-   }
-   .eco__plant, .eco__shop, .eco__earth{
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-content: center;
-     text-align: center;
-     margin-bottom: 32px;
-     font-size: 14px;
-     font-family: "Monsterrat Regular";
-   }
-   .eco__plant img, .eco__shop img, .eco__earth img{
-     margin-bottom: 24px;
-   }
-  
-
-
-   // Footer
-   .footer{
-    height: 8vh;
-
-    width: 100vw;
-    background-color: $footercolor;
-    display: flex;
-    flex-direction: row;
-    font-family: "Monsterrat Regular";
-    font-size: 8px;
-    .text__footer{
-      font-size: 10px;
-      width:24vw;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      color: #FFFFFF;
-      margin-left: 16px;
-    }
-    .icons__footer{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      font-size: 10px;
-      width:52vw;
-      color: #FFFFFF;
-    }
-    .text__footer1{
-      width: 24vw;
-      font-size: 10px;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;    
-      color: #FFFFFF;
-      margin-right: 16px;
-    }
-   }
-
-   // Cart 
-
-   .header__bee {
-    display: flex;
-    background-color: $primarycolor;
-    width: 100vw;
-    height: 65px;
-    &.logoBee {
-      object-fit: scale-down;
-      justify-content: center;
-     align-items: center;
-    }
-
-  
+  //  .visualisation{
+  //    width:60%;
+  //    position:relative;
+  //    margin-bottom: 64px;
+  //  }
+  //  .visualisation__jacket {
+  //   width:100%;
+  //   margin-left:33%;
+  // }
+  // .visualisation__zoomIn {
+  //   position: absolute;
+  //   bottom:55%;
+  //   left:15%;
+  // }
+  // .visualisation__zoomOut{
+  //   position: absolute;
+  //   bottom:35%;
+  //   left:15%;
+  // }
+  // .visualisation__turnRight{
+  //   position: absolute;
+  //   left:85%;
+  // }
+  // .visualisation__turnLeft{
+  //   position: absolute;
+  //   left: 65%;
+  // }
+  // .visualisation__bin{
+  //   position: absolute;
+  //   left:140%;
+  // }
 
 
-.star1 {
-  height: 17.85vh;
-  width: auto;
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
-  align-self: center;
-  justify-self: center;
-}
-
-.star2 {
-  height: 17.85vh;
-  width: auto;
-  grid-column: 2 / 2;
-  grid-row: minmax (100px, auto);
-  align-self: center;
-  justify-self: center;
-}
-
-.star3 {
-  height: 17.85vh;
-  width: auto;
-  grid-column: 1 / 2;
-  grid-row: 2 / 2;
-  align-self: center;
-  justify-self: center;
-}
-
-.star4 {
-  height: 17.85vh;
-  width: auto;
-  grid-column: 2 / 2;
-  grid-row: 2 / 2;
-  align-self: center;
-  justify-self: center;
-}
-.eco {
-  background-color: $fifthcolor;
-  height: auto;
-  width: 100vw;
-  padding: 16px 0px;
-
-  .eco__title {
-    color: $primarycolor;
-    text-align: center;
-    font-size: 24px;
-  }
-  .eco__sections {
-    font-size: 14px;
-    text-align: center;
-    margin-top: 24px;
-  }
-}
+//Footer
 .footer {
   height: 9.95vh;
   width: 100vw;
   background-color: $footercolor;
   display: flex;
   flex-direction: row;
+}
   .text__footer {
     font-size: 10px;
     width: 24vw;
@@ -604,8 +419,9 @@ li:not(:last-child) {
     justify-content: center;
     color: #ffffff;
     margin-right: 16px;
-  }
 }
+
+
 
 // Cart
 
@@ -614,110 +430,78 @@ li:not(:last-child) {
   background-color: $primarycolor;
   width: 100vw;
   height: 65px;
-  &.logoBee {
+}
+  .logoBee {
     object-fit: scale-down;
     justify-content: center;
     align-items: center;
-  }
+  
 }
 .title {
   display: flex;
 }
 
-//Page Custom, Bottom Part
+// //Page Custom, Bottom Part
 
-.personalisation__title {
-  font-size: 24px;
-  color: $primarycolor;
-  text-align: center;
-  margin-bottom: 16px;
-}
-.personalisation__color {
-  text-align: center;
-}
-.personalisation__bleach {
-  margin-right: 28px;
-}
-.personalisation__titleSize {
-  font-size: 24px;
-  margin: 24px;
-  text-align: center;
-}
-.personalisation__collec {
-  text-align: center;
-}
-.personalisation__patch {
-  margin-right: 22px;
-  margin-bottom: 16px;
-}
-.board {
-  border: solid black 0.1px;
-  width: 300px;
-  margin-left: 16px;
-  display: flex;
-  flex-wrap: wrap;
-  padding-bottom: 16px;
-}
-.board__patch {
-  margin-left: 21px;
-  margin-right: 21px;
-  margin-top: 16px;
-}
-.save {
-  background-color: $primarycolor;
-  color: white;
-  height: 36px;
-  width: 146px;
-  border: none;
-  margin: auto;
-  margin-top: 48px;
-  border-radius: 20.5px;
-  display: block;
-  box-shadow: 4px 4px 0px $thirdcolor;
-}
-.addBasket {
-  background-color: $primarycolor;
-  color: white;
-  height: 36px;
-  width: 191px;
-  border: none;
-  margin: auto;
-  margin-top: 32px;
-  border-radius: 20.5px;
-  display: block;
-  box-shadow: 4px 4px 0px $thirdcolor;
-}
-
-// Custom Up
-
-// Cart
-
-.header__bee {
-  display: flex;
-  background-color: $primarycolor;
-  width: 100vw;
-  height: 65px;
-  &.logoBee {
-    object-fit: scale-down;
-    justify-content: center;
-    align-items: center;
-  }
-}
-.title {
-  display: flex;
-}
-
-.jacket__view {
-  display: flex;
-  background-color: $thirdcolor;
-  height: 312px;
-  width: 288px;
-  margin-top: 24px;
-  justify-content: center;
-  align-items: center;
-}
-   }
-  }
-}
-}
+// .personalisation__title {
+//   font-size: 24px;
+//   color: $primarycolor;
+//   text-align: center;
+//   margin-bottom: 16px;
+// }
+// .personalisation__color {
+//   text-align: center;
+// }
+// .personalisation__bleach {
+//   margin-right: 28px;
+// }
+// .personalisation__titleSize {
+//   font-size: 24px;
+//   margin: 24px;
+//   text-align: center;
+// }
+// .personalisation__collec {
+//   text-align: center;
+// }
+// .personalisation__patch {
+//   margin-right: 22px;
+//   margin-bottom: 16px;
+// }
+// .board {
+//   border: solid black 0.1px;
+//   width: 300px;
+//   margin-left: 16px;
+//   display: flex;
+//   flex-wrap: wrap;
+//   padding-bottom: 16px;
+// }
+// .board__patch {
+//   margin-left: 21px;
+//   margin-right: 21px;
+//   margin-top: 16px;
+// }
+// .save {
+//   background-color: $primarycolor;
+//   color: white;
+//   height: 36px;
+//   width: 146px;
+//   border: none;
+//   margin: auto;
+//   margin-top: 48px;
+//   border-radius: 20.5px;
+//   display: block;
+//   box-shadow: 4px 4px 0px $thirdcolor;
+// }
+// .addBasket {
+//   background-color: $primarycolor;
+//   color: white;
+//   height: 36px;
+//   width: 191px;
+//   border: none;
+//   margin: auto;
+//   margin-top: 32px;
+//   border-radius: 20.5px;
+//   display: block;
+//   box-shadow: 4px 4px 0px $thirdcolor;
+// }
 }
