@@ -1,3 +1,4 @@
+
 @media (min-width:750px){
   // vestes
 .header {
@@ -112,7 +113,6 @@
         width: auto;
         height: 43vh;
         transform: rotate(-3.79deg);
-
       }
     }
   .sentence {
@@ -198,7 +198,6 @@
         }
       }
       }   
-
     }
       .eco{
         background-color: white;
@@ -231,5 +230,83 @@
         align-items: center;
       }
 
+    }
+   //Custom Page
 
-    
+   .fond{
+     background-color: white;
+     margin:10%;
+     padding-bottom: 24px;
+     padding-top: 24px;
+     padding-right:64px;
+     padding-left:120px;
+     display:flex;
+   }
+   .visualisation{
+     width:80vh;
+     position:relative;
+   }
+   .visualisation__jacket {
+     width:auto;
+     margin-left:5%;;
+     margin-top:10%;
+  }
+  .visualisation__zoomIn {
+    position: absolute;
+    left:-5%;
+    top:48%;
+  }
+  .visualisation__zoomOut{
+    position: absolute;
+    left:-5%;
+    top:60%;
+  }
+  .visualisation__turnRight{
+    position: absolute;
+    left:43%;
+    bottom:0%;
+  }
+  .visualisation__turnLeft{
+    position: absolute;
+    left:33%;
+    bottom:0%;
+  }
+  .visualisation__bin{
+    position: absolute;
+    left:80%;
+    bottom:0%;
+  }
+   //Right Custom Page
+
+   .personalisation{
+     width:60vh;
+   }
+   .personalisation__title{    
+    text-align: left;
+   }
+   .personalisation__color{
+    text-align: left;
+  }
+  .personalisation__size{
+    display:flex;
+    justify-content: flex-start;
+   }
+   .personalisation__collec{
+    text-align: left;
+   }
+   .personalisation__new{
+    position:absolute;
+    left:47%;
+    bottom:40%;
+  }
+  .board{
+     margin:0;
+  }
+  .save{
+    display: inline;
+   }
+   .addBasket{
+    display: inline;
+   }
+  }
+  
