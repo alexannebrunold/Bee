@@ -163,6 +163,8 @@ table {
     transition: height 0.5s, width 0.5s, left 0.5s, bottom 0.5s, border-radius 0.3s;
     z-index: 1;
     background-color: #36BDCB; }
+  #burger__menu {
+    width: 100vw; }
   nav.is-open {
     height: 100vh;
     width: 100vw;
@@ -310,44 +312,47 @@ table {
     margin-top: 52vh;
     padding-top: 16px;
     padding-bottom: 15px;
-    font-size: 24px; }
-  .button__choose {
-    background-color: #36BDCB;
-    border: none;
-    color: #ffffff;
-    height: 6vh;
-    width: 13vw;
-    font-size: 14px;
-    border-radius: 20.5px;
-    margin-top: 100px;
-    margin-bottom: 10px;
-    display: block;
-    margin: auto;
-    text-align: center;
-    margin-bottom: 16px;
-    box-shadow: 4px 4px 0px #F6D6FC;
-    position: relative; }
-  a {
-    text-decoration: none;
-    color: white; }
-  .button__choose:hover {
-    box-shadow: none; }
-  .choose__sections {
-    font-size: 18px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 24px; }
-  .blue__jacket,
-  .dark__jacket {
-    height: 46vh;
-    width: auto;
-    padding-top: 16px; }
-  .choose__price {
-    color: black;
-    font-size: 18px;
-    font-family: "Montserrat Medium"; }
+    font-size: 24px;
+    font-family: "Baloo"; }
+    .choose .choose__sections {
+      font-size: 18px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 24px; }
+    .choose .blue__jacket,
+    .choose .dark__jacket {
+      height: 46vh;
+      width: auto;
+      padding-top: 16px; }
+    .choose .button__choose {
+      background-color: #36BDCB;
+      border: none;
+      color: #ffffff;
+      height: 6vh;
+      width: auto;
+      font-size: 12px;
+      font-family: "Montserrat Regular";
+      border-radius: 20.5px;
+      margin-top: 100px;
+      margin-bottom: 10px;
+      display: block;
+      margin: auto;
+      text-align: center;
+      margin-bottom: 16px;
+      box-shadow: 4px 4px 0px #F6D6FC;
+      position: relative; }
+    .choose a {
+      text-decoration: none;
+      color: white; }
+    .choose .button__choose:hover {
+      box-shadow: none; }
+    .choose .choose__price {
+      color: black;
+      font-size: 18px;
+      font-family: "Montserrat Light";
+      margin-bottom: 16px; }
   .fans {
     height: 56vh;
     color: #36BDCB;
