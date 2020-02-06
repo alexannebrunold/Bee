@@ -1,6 +1,5 @@
 @media(max-width:750px){
   //keyframes
-
 nav {
   position: fixed;
   bottom: 15px;
@@ -283,7 +282,6 @@ li:not(:last-child) {
   margin-bottom: 16px;
 }
 }
-  
    // Fans 
    .fans{
     height: 56vh;
@@ -291,9 +289,10 @@ li:not(:last-child) {
     text-align: center;
     padding-top: 16px;
     font-size: 24px;
-   }
+   
     .fans__title{
-      font-family: Baloo;
+      font-family: "Baloo";
+      margin-bottom: 16px;
     }
    
     .button__fans{
@@ -301,14 +300,13 @@ li:not(:last-child) {
         border: none;
         color: #FFFFFF;
         height: 5vh;
-        width: 48vw;
+        width: auto;
         font-size: 10px;
         border-radius: 20.5px;
         margin-top: 50px;
         display: block;
         margin: auto;
         box-shadow: 4px 4px 0px $thirdcolor;
-
     }
       
   .fans__img {
@@ -318,7 +316,7 @@ li:not(:last-child) {
     grid-template-rows: 1fr 1fr;
     padding-top: 32px;
   }
-    
+} 
    .star1{
     height: 17.85vh;
     width: auto;
@@ -354,6 +352,80 @@ li:not(:last-child) {
     align-self: center;
     justify-self: center;
    }
+
+   //Eco
+.eco{
+    background-color: white;
+    text-align: center;
+    width: 100vw;
+    height: auto;
+    .eco__title{
+      font-size: 48px;
+      font-family: "Baloo";
+    }
+    .yo{
+      position: relative;
+      z-index: 1;
+      overflow: hidden;
+      .r{
+        width: 100vw;
+        height: auto;
+        left: 0;
+        position: absolute;
+        z-index: -1;
+        bottom: 2%;
+      }
+      .rr{
+        width: 100vw;
+        height: auto;
+        left: 0;
+        position: absolute;
+        z-index: -1;
+        bottom: 2%;
+      }
+      .rrr{
+        width: 100vw;
+        height: auto;
+        left: 0;
+        position: absolute;
+        z-index: -1;
+        top: 56%;
+      }
+      .rrrr{
+        width: 100vw;
+        height: auto;
+        left: 0;
+        position: absolute;
+        z-index: -1;
+        top: 62%;
+       
+      }
+        .eco__plant, .eco__shop, .eco__earth{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 24px;
+          width: auto;
+          font-family: "Montserrat Regular";
+          font-size: 14px;
+        }
+        .eco__plant img, .eco__shop img, .eco__earth img{
+          margin-bottom: 16px;
+        }
+        .eco__text__color__thirdcolor{
+          color: $thirdcolor;
+        }
+        .eco__text__color__primarycolor{
+          color: $primarycolor;
+        }
+        .eco__text__color__fourthcolor{
+          color: $fourthcolor;
+        }
+        
+    }
+
+}
 
    //Page Custom, Top Part
 
@@ -397,7 +469,6 @@ li:not(:last-child) {
   background-color: $footercolor;
   display: flex;
   flex-direction: row;
-}
   .text__footer {
     font-size: 10px;
     width: 24vw;
@@ -408,11 +479,12 @@ li:not(:last-child) {
     margin-left: 16px;
   }
   .icons__footer {
-    justify-content: center;
+    display: flex;
+  flex-direction: row;
+    justify-content: space-evenly;
     font-size: 10px;
     width: 52vw;
-    margin-top: 3vh;
-    color: #ffffff;
+    // margin-top: 3vh;
   }
   .text__footer1 {
     width: 24vw;
@@ -424,7 +496,7 @@ li:not(:last-child) {
     color: #ffffff;
     margin-right: 16px;
 }
-
+}
 
 
 // Cart
