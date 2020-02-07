@@ -142,7 +142,7 @@ li:not(:last-child) {
   li:not(:last-child) {
     margin-bottom: 0;
   }
-    .burger__li {
+  .burger__li {
       opacity: 1;
       font-size: 40px;
       margin: -100px;
@@ -196,7 +196,6 @@ li:not(:last-child) {
       color: white;
       width: 48vw;
       height: auto;
-      margin-top: -24px;
       left: 26%;
       font-family: "Montserrat light";
       position: absolute;
@@ -213,7 +212,7 @@ li:not(:last-child) {
     margin-top: 18%;
     margin-left: 27%;
     }
-  }
+  
     
     //Home
 
@@ -374,10 +373,12 @@ li:not(:last-child) {
     width: 100vw;
     height: auto; 
     margin-top: 26px;
+    background-color: #FFFFFF;
     .eco__title{
       font-size: 48px;
       font-family: "Baloo";
       color: $primarycolor;
+      padding-top: 24px;
     }
     .yo{
       position: relative;
@@ -389,7 +390,7 @@ li:not(:last-child) {
         left: 0;
         position: absolute;
         z-index: -1;
-        top: -24%;
+        top: -2%;
       }
       .eco__pink{
         width: 100vw;
@@ -397,7 +398,7 @@ li:not(:last-child) {
         left: 0;
         position: absolute;
         z-index: -1;
-       top: 20%;
+       top: 32%;
       }
       .eco__orange{
         width: 100vw;
@@ -405,7 +406,7 @@ li:not(:last-child) {
         left: 0;
         position: absolute;
         z-index: -1;
-        top: 32%;
+        top: 62%;
       }
       .eco__yellow{
         width: 100vw;
@@ -413,7 +414,7 @@ li:not(:last-child) {
         left: 0;
         position: absolute;
         z-index: -1;
-        top: 40%;
+        top: 62%;
        
       }
         .eco__plant, .eco__shop, .eco__earth{
@@ -439,10 +440,10 @@ li:not(:last-child) {
           color: $fourthcolor;
         }
 }
-      
+}  
 //Footer
 .footer {
-  height: 150vh;
+  height: 8vh;
   width: 100vw;
   background-color: $footercolor;
   display: flex;

@@ -93,6 +93,7 @@
       position: relative;
       bottom: 20vh;
       width: 100vw;
+
     }
     .jackets {
       display: flex;
@@ -227,7 +228,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      background-image: url("assets/rainbow.png");
+      background-image: url("assets/Arc-en-Ciel.png");
       background-repeat: no-repeat;
       background-size: 1fr;
       font-family: Montserrat Regular;
@@ -238,6 +239,7 @@
         justify-content: space-evenly;
         align-items: center;
         width:60%;
+   
         p {
           b {
             font-family:Montserrat Semi-Bold;
@@ -252,6 +254,7 @@
         justify-content: space-evenly;
         align-items: center;
         width:60%;
+     
         p {
           b {
             font-family:Montserrat Semi-Bold;
@@ -265,6 +268,7 @@
         justify-content: space-evenly;
         align-items: center;
         width:60%;
+       
         p {
           b {
             font-family:Montserrat Semi-Bold;
