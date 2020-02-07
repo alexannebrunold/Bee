@@ -291,9 +291,11 @@ li:not(:last-child) {
     text-align: center;
     padding-top: 16px;
     font-size: 24px;
+    padding-bottom: 16px;
    
     .fans__title{
-      font-family: Baloo;
+      font-family: "Baloo";
+      padding-bottom: 16px;
     }
 
     .fans__img{
@@ -376,49 +378,50 @@ li:not(:last-child) {
 
    //Eco
 .eco{
-    background-color: white;
     text-align: center;
     width: 100vw;
-    height: auto;
+    height: auto; 
+    margin-top: 26px;
     .eco__title{
       font-size: 48px;
       font-family: "Baloo";
+      color: $primarycolor;
     }
     .yo{
       position: relative;
       z-index: 1;
       overflow: hidden;
-      .r{
+      .eco__blue{
         width: 100vw;
         height: auto;
         left: 0;
         position: absolute;
         z-index: -1;
-        bottom: 2%;
+        top: -24%;
       }
-      .rr{
+      .eco__pink{
         width: 100vw;
         height: auto;
         left: 0;
         position: absolute;
         z-index: -1;
-        bottom: 2%;
+       top: 20%;
       }
-      .rrr{
+      .eco__orange{
         width: 100vw;
         height: auto;
         left: 0;
         position: absolute;
         z-index: -1;
-        top: 56%;
+        top: 32%;
       }
-      .rrrr{
+      .eco__yellow{
         width: 100vw;
         height: auto;
         left: 0;
         position: absolute;
         z-index: -1;
-        top: 62%;
+        top: 40%;
        
       }
         .eco__plant, .eco__shop, .eco__earth{
@@ -627,7 +630,7 @@ li:not(:last-child) {
       
 //Footer
 .footer {
-  height: 9.95vh;
+  height: 150vh;
   width: 100vw;
   background-color: $footercolor;
   display: flex;
